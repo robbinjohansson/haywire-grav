@@ -1,20 +1,6 @@
-// REQUIRED DEPENDENCIES - DO NOT CHANGE
+// BOOTSTRAP COMPONENTS
 
-// Load Third Party Libraries
-@import "vendor/bourbon/bourbon";
-
-// Load Nucleus Configuration
-@import "configuration/nucleus/base";
-
-// Load Template Configuration
-@import "configuration/template/base";
-
-// Load Nucleus Mixins and Functions
-@import "nucleus/functions/base";
-@import "nucleus/mixins/base";
-
-// Load Template Library
-@import "template/modules/base";
+@import "../vendor/bootstrap/scss/bootstrap.scss";
 
 //-------------------------------------------
 
@@ -62,6 +48,3 @@
 
 // Custom
 @import "template/_custom";
-
-// Modular
-@import "template/modular/all";

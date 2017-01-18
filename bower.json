@@ -1,0 +1,20 @@
+{
+  "name": "haywire",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Robbin Johansson <robbinfellow@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/robbinfellow/haywire-grav",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}

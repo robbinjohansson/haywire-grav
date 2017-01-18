@@ -13,3 +13,7 @@ ehthumbs.db
 Icon?
 Thumbs.db
 *.swp
+
+# Custom
+node_modules/*
+vendor/*
