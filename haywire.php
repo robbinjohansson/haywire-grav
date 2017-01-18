@@ -1,7 +1,7 @@
 <?php
  namespace Grav\Theme;
 
- class Haywire extends Antimatter
+ class Haywire
  {
      // Some new methods, properties etc.
  }
