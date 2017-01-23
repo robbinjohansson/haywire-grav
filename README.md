@@ -1,21 +1,32 @@
 # Haywire getgrav theme
 
-Haywire theme for [getgrav](https://getgrav.org/) is a modern starter theme under development.
+Haywire theme for [getgrav](https://getgrav.org/) is a modern starter theme currently under development.
 
 ## Features
 
 * Yarn
-* Bootstrap 4.0.0-alpha.6
-* Gulp
+* Bootstrap-sass
+* Laravel-elixir
 * Bower
 
 ## Installation / Usage
 
-Install yarn dependencies => `yarn`
+### Yarn
+
+Install yarn dependencies => `yarn `
+
+Add package with *yarn* => `yarn add packagename --save-dev`
+
+### Bower
 
 Install bower dependencies => `bower install`
 
-Compile scss files => `gulp sass`
+Install package with bower => `bower install packagename --save-dev`
 
-Watch for scss changes => `gulp watch`
+### Gulp
 
+Compile assets => `gulp`
+
+Watch for changes in scss/js files => `gulp watch`
+
+Minify assets => `gulp --production`

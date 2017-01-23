@@ -3,3 +3,16 @@
 {% block content %}
 	{{ page.content }}
 {% endblock %}
+
+{# Get subpages as collection - limited to 3 from frontmatter @parent #}
+{% block pushers %}
+	{% for p in page.collection %}
+		{# dump(p) #}
+		<h2>{{ p.title }}</h2>
+		{% if p.summary %}
+			{{ p.summary(200) }}
+		{% else %}
+			<em>No summary available</em>
+		{% endif %}
+	{% endfor %}
+{% endblock %}

@@ -11,13 +11,13 @@
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
     {% block stylesheets %}
-        {% do assets.addCss('theme://css/haywire.min.css', 10) %}
+        {% do assets.addCss('theme://dist/css/main.css', 10) %}
     {% endblock %}
     {{ assets.css() }}
 
     {% block javascripts %}
-        {% do assets.addJs('jquery', 101) %}
-        {% do assets.addJs('theme://js/haywire.js') %}
+        {% do assets.addJs('theme://dist/js/vendor.js', 100) %}
+        {% do assets.addJs('theme://dist/js/main.js', 10) %}
     {% endblock %}
     {{ assets.js() }}
 
@@ -42,8 +42,13 @@
             </div>
         </header>
         {% endblock %}
+        {% if page.header.slug == 'home' %}
+            {% block pushers %}{% endblock %}
+        {% else %}
+        <p>Page is not home.</p>
+        {% endif %}
 
-        {% block showcase %}{% endblock %}
+        {{ dump(page) }}
 
         {% block body %}
         <section id="body" class="{{ class }}">

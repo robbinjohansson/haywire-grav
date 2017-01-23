@@ -10,6 +10,8 @@
     "gulp-clean-css": "^2.3.2",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-watch": "^4.3.11"
+    "gulp-watch": "^4.3.11",
+    "laravel-elixir": "^6.0.0-15",
+    "laravel-elixir-browserify-official": "^0.1.3"
   }
 }

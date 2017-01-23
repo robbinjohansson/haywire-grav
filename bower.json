@@ -11,10 +11,14 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "vendor",
     "test",
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "v4.0.0-alpha.6"
+    "tether": "^1.4.0"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7"
   }
 }
