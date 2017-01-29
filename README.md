@@ -43,8 +43,13 @@ Remove package => `yarn remove packagename --save-dev`
 ## Useful links
 
 [yarn](https://yarnpkg.com/en/docs/)
+
 [bootstrap-sass](https://github.com/twbs/bootstrap-sass)
+
 [gulp](http://gulpjs.com/)
+
 [laravel-elixir](https://laravel.com/docs/5.3/elixir)
+
 [getgrav](https://learn.getgrav.org/)
+
 [bower](https://bower.io/)
