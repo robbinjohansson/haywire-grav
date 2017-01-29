@@ -6,3 +6,22 @@ author:
  name: Robbin Johansson
  email: robbinfellow@gmail.com
  url: http://haywire.me
+homepage: https://github.com/robbinfellow/haywire-grav
+demo: Coming soon
+keywords: haywire, laravel-elixir, bootstrap-sass, gulp, bower, css3
+bugs: https://github.com/robbinfellow/haywire-grav/issues
+license: MIT
+
+form:
+  validation: loose
+  fields:
+    dropdown.enabled:
+        type: toggle
+        label: Dropdown in navbar
+        highlight: 1
+        default: 1
+        options:
+          1: PLUGIN_ADMIN.ENABLED
+          0: PLUGIN_ADMIN.DISABLED
+        validate:
+          type: bool
