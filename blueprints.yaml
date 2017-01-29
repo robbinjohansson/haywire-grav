@@ -1,6 +1,6 @@
 name: Haywire
-version: 0.0.2
-description: "Haywire grav starter theme"
+version: 0.1.0
+description: "Haywire starter theme for getgrav"
 icon: crosshairs
 author:
  name: Robbin Johansson

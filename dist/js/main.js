@@ -1,4 +1,1 @@
-$().ready(function() {
-	
-});
-//# sourceMappingURL=main.js.map
+$().ready(function(){});

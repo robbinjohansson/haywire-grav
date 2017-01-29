@@ -1,0 +1,208 @@
+/* Helper Classes - Start */
+.nomargin {
+  margin: 0 !important;
+}
+.nmt {
+  margin-top: 0 !important;
+}
+.nmr {
+  margin-right: 0 !important;
+}
+.nmb {
+  margin-bottom: 0 !important;
+}
+.nml {
+  margin-left: 0 !important;
+}
+.maxs {
+  margin: 5px;
+}
+.mtxs {
+  margin-top: 5px;
+}
+.mrxs {
+  margin-right: 5px;
+}
+.mbxs {
+  margin-bottom: 5px;
+}
+.mlxs {
+  margin-left: 5px;
+}
+.mas {
+  margin: 10px;
+}
+.mts {
+  margin-top: 10px;
+}
+.mrs {
+  margin-right: 10px;
+}
+.mbs {
+  margin-bottom: 10px;
+}
+.mls {
+  margin-left: 10px;
+}
+.mam {
+  margin: 15px;
+}
+.mtm {
+  margin-top: 15px;
+}
+.mrm {
+  margin-right: 15px;
+}
+.mbm {
+  margin-bottom: 15px;
+}
+.mlm {
+  margin-left: 15px;
+}
+.mal {
+  margin: 20px;
+}
+.mtl {
+  margin-top: 20px;
+}
+.mrl {
+  margin-right: 20px;
+}
+.mbl {
+  margin-bottom: 20px;
+}
+.mll {
+  margin-left: 20px;
+}
+.maxl {
+  margin: 30px;
+}
+.mtxl {
+  margin-top: 30px;
+}
+.mrxl {
+  margin-right: 30px;
+}
+.mbxl {
+  margin-bottom: 30px;
+}
+.mlxl {
+  margin-left: 30px;
+}
+.nopadding {
+  padding: 0 !important;
+}
+.npt {
+  padding-top: 0 !important;
+}
+.npr {
+  padding-right: 0 !important;
+}
+.npb {
+  padding-bottom: 0 !important;
+}
+.npl {
+  padding-left: 0 !important;
+}
+.paxs {
+  padding: 5px;
+}
+.ptxs {
+  padding-top: 5px;
+}
+.prxs {
+  padding-right: 5px;
+}
+.pbxs {
+  padding-bottom: 5px;
+}
+.plxs {
+  padding-left: 5px;
+}
+.pas {
+  padding: 10px;
+}
+.pts {
+  padding-top: 10px;
+}
+.prs {
+  padding-right: 10px;
+}
+.pbs {
+  padding-bottom: 10px;
+}
+.pls {
+  padding-left: 10px;
+}
+.pam {
+  padding: 15px;
+}
+.ptm {
+  padding-top: 15px;
+}
+.prm {
+  padding-right: 15px;
+}
+.pbm {
+  padding-bottom: 15px;
+}
+.plm {
+  padding-left: 15px;
+}
+.pal {
+  padding: 20px;
+}
+.ptl {
+  padding-top: 20px;
+}
+.prl {
+  padding-right: 20px;
+}
+.pbl {
+  padding-bottom: 20px;
+}
+.pll {
+  padding-left: 20px;
+}
+.paxl {
+  padding: 30px;
+}
+.ptxl {
+  padding-top: 30px;
+}
+.prxl {
+  padding-right: 30px;
+}
+.pbxl {
+  padding-bottom: 30px;
+}
+.plxl {
+  padding-left: 30px;
+}
+.text-black {
+  color: #000;
+}
+.text-white {
+  color: #fff;
+}
+.text-bold {
+  font-weight: 700;
+}
+.text-light {
+  font-weight: 300;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+/* Helper Classes - End */
+
+/* Remove iOS default input shadow */
+input[type="text"] {
+  -webkit-appearance:none;
+}

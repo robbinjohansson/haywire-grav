@@ -1,18 +1,24 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-	{{ page.content }}
+	<div class="col-sm-12">
+		{{ page.content }}
+	</div>
 {% endblock %}
 
-{# Get subpages as collection - limited to 3 from frontmatter @parent #}
-{% block pushers %}
-	{% for p in page.collection %}
-		{# dump(p) #}
-		<h2>{{ p.title }}</h2>
-		{% if p.summary %}
-			{{ p.summary(200) }}
-		{% else %}
-			<em>No summary available</em>
-		{% endif %}
-	{% endfor %}
+{# List 3 latest childpages of /home as posts #}
+{% block latestPosts %}
+	<div class="col-sm-12">
+		
+		{% for post in page.find('/home').children.order('date', 'desc').slice(0, 3) %}
+			
+			<h2>{{ post.title }}</h2>
+			{% if post.summary %}
+				{{ post.summary(200) }}
+			{% else %}
+				<em>No summary available</em>
+			{% endif %}
+		{% endfor %}
+
+	</div>
 {% endblock %}

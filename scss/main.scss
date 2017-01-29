@@ -6,12 +6,17 @@
 
 // TEMPLATE COMPONENTS
 
-// Core
-@import "template/core";
+// Fonts
 @import "template/fonts";
 
-// Extensions
-@import "template/extensions";
+// Typography
+@import "template/typography";
+
+// Sass helper classes
+@import "template/_global";
+
+// Buttons
+@import "template/buttons";
 
 // Header
 @import "template/header";
@@ -19,32 +24,11 @@
 // Footer
 @import "template/footer";
 
-// Typography
-@import "template/typography";
-
 // Forms
 @import "template/forms";
 
-// Tables
-@import "template/tables";
-
-// Buttons
-@import "template/buttons";
-
-// Bullets
-@import "template/bullets";
-
-// Pushy Panel
-@import "template/panel";
-
 // Blog
 @import "template/blog";
-
-// Errors
-@import "template/errors";
-
-// SimpleSearch
-@import "template/simplesearch";
 
 // Custom
 @import "template/_custom";

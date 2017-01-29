@@ -23,48 +23,28 @@
 
 {% endblock head %}
 </head>
-<body id="top" class="{{ page.header.body_classes }}">
+<body class="{{ page.header.body_classes }}">
+
     <div class="container">
-        {% block header %}
-        <header id="header">
-            <div id="logo">
-                <h3><a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a></h3>
-            </div>
-            <div id="navbar">
-                {% block header_extra %}{% endblock %}
-                {% if config.plugins.langswitcher.enabled %}
-                {% include 'partials/langswitcher.html.twig' %}
-                {% endif %}
-                {% block header_navigation %}
-                {% include 'partials/navigation.html.twig' %}
-                {% endblock %}
-                <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
-            </div>
-        </header>
-        {% endblock %}
-        {% if page.header.slug == 'home' %}
-            {% block pushers %}{% endblock %}
-        {% else %}
-        <p>Page is not home.</p>
-        {% endif %}
+        <div class="row">
 
-        {{ dump(page) }}
+    {% block header %}
+        {% include 'partials/header.html.twig' %}
+    {% endblock %}
 
-        {% block body %}
-        <section id="body" class="{{ class }}">
-            <div class="row">
-                <div class="col-sm-12">
-                    {% block content %}{% endblock %}
-                </div>
-            </div>
-        </section>
-        {% endblock %}
+    {% block body %}
+    <section id="main" class="{{ class }}">
+        {% block content %}{% endblock %}
 
-        {% block footer %}
-        <footer id="footer">
-            // footer
-        </footer>
-        {% endblock %}
+        {% block latestPosts %}{% endblock %}
+    </section>
+    {% endblock %}
+
+    {% block footer %}
+        {% include 'partials/footer.html.twig' %}
+    {% endblock %}
+
+        </div>
     </div>
 </body>
 </html>
