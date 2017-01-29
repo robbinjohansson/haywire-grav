@@ -2,6 +2,8 @@
 
 Haywire is a modern starter theme for [getgrav](https://getgrav.org/). The idea behind the theme is to help developers to get started quickly on their new getgrav projects using modern frameworks and tools such as [yarn](https://yarnpkg.com/), [laravel-elixir](https://laravel.com/docs/5.3/elixir), [bootstrap](https://github.com/twbs/bootstrap-sass).
 
+![screenshot](https://github.com/robbinfellow/haywire-grav/blob/master/screenshot.png?raw=true)
+
 _Inspired by [Sage](https://roots.io/sage/) starter theme for wordpress by [roots](https://roots.io/)._
 
 ## Features
