@@ -16,13 +16,12 @@ _Inspired by [Sage](https://roots.io/sage/) starter theme for wordpress by [root
 
 ## Installation / Usage
 
-1. Install [getgrav](https://getgrav.org/downloads)
-2. `cd gravroot/user/themes`
-3. `git clone https://github.com/robbinfellow/haywire-grav.git haywire`
-4. `cd haywire`
-5. `yarn`
-6. `bower install`
-7. `gulp`
+        $ cd ~/gravroot/user/themes
+        $ git clone https://github.com/robbinfellow/haywire-grav.git haywire
+        $ cd haywire
+        $ yarn
+        $ bower install
+        $ gulp
 
 The `templates/default.html.twig` is setup to display the latest subpages of your @home page as blogposts.
 
