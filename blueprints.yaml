@@ -8,7 +8,7 @@ author:
  url: http://haywire.me
 homepage: https://github.com/robbinfellow/haywire-grav
 demo: Coming soon
-keywords: haywire, laravel-elixir, bootstrap-sass, gulp, bower, css3
+keywords: haywire, yarn, laravel-elixir, bootstrap-sass, gulp, bower, css3
 bugs: https://github.com/robbinfellow/haywire-grav/issues
 license: MIT
 
