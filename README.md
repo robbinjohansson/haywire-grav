@@ -16,6 +16,18 @@ _Inspired by [Sage](https://roots.io/sage/) starter theme for wordpress by [root
 
 ## Installation / Usage
 
+### bin/gpm
+        
+        $ cd ~/gravroot
+        $ bin/gpm install haywire
+        $ cd /user/themes/haywire
+        $ yarn
+        $ bower install
+        $ gulp
+
+
+### Manual
+        
         $ cd ~/gravroot/user/themes
         $ git clone https://github.com/robbinfellow/haywire-grav.git haywire
         $ cd haywire
@@ -23,7 +35,8 @@ _Inspired by [Sage](https://roots.io/sage/) starter theme for wordpress by [root
         $ bower install
         $ gulp
 
-The `templates/default.html.twig` is setup to display the latest subpages of your @home page as blogposts.
+
+_The `templates/default.html.twig` is setup to display the latest subpages of your @home page as blogposts._
 
 ### Gulp
 
