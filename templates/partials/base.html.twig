@@ -26,25 +26,23 @@
 <body class="{{ page.header.body_classes }}">
 
     <div class="container">
-        <div class="row">
 
-    {% block header %}
-        {% include 'partials/header.html.twig' %}
-    {% endblock %}
+        {% block header %}
+            {% include 'partials/header.html.twig' %}
+        {% endblock %}
 
-    {% block body %}
-    <section id="main" class="{{ class }}">
-        {% block content %}{% endblock %}
+        {% block body %}
+        <section id="main" class="{{ class }}">
+            {% block content %}{% endblock %}
 
-        {% block latestPosts %}{% endblock %}
-    </section>
-    {% endblock %}
+            {% block latestPosts %}{% endblock %}
+        </section>
+        {% endblock %}
 
-    {% block footer %}
-        {% include 'partials/footer.html.twig' %}
-    {% endblock %}
+        {% block footer %}
+            {% include 'partials/footer.html.twig' %}
+        {% endblock %}
 
-        </div>
     </div>
 </body>
 </html>

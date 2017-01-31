@@ -1,16 +1,21 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-	<div class="col-sm-12">
-		{{ page.content }}
+	<div class="row">
+		<div class="col-sm-12">
+			{{ page.content }}
+		</div>
 	</div>
 {% endblock %}
 
 {# List 3 latest childpages of /home as posts #}
 {% block latestPosts %}
+<div class="row">
 	<div class="col-sm-12">
 		
 		{% for post in page.find('/home').children.order('date', 'desc').slice(0, 3) %}
+
+			{{dump(post.header.publish_date)}}
 			
 			<h2>{{ post.title }}</h2>
 			{% if post.summary %}
@@ -18,7 +23,15 @@
 			{% else %}
 				<em>No summary available</em>
 			{% endif %}
+
+			{% if post.header.publish_date %}
+				<div class="row">
+					<div class="col-sm-12 mtl mbl">Created at {{ post.header.publish_date }}</div>
+				</div>
+			{% endif %}
+			
 		{% endfor %}
 
 	</div>
+</div>
 {% endblock %}
