@@ -1,6 +1,6 @@
 {
   "name": "haywire",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "main": "index.js",
   "repository": "https://github.com/robbinfellow/haywire-grav.git",
   "author": "Robbin Johansson <robbinfellow@gmail.com>",
