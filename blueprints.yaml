@@ -1,6 +1,6 @@
 name: Haywire
 version: 0.1.0
-description: "Haywire starter theme for getgrav"
+description: "Haywire is a modern starter theme for getgrav. The idea behind the theme is to help developers to get started quickly on their new getgrav projects using modern frameworks and tools such as yarn, laravel-elixir, bootstrap."
 icon: crosshairs
 author:
  name: Robbin Johansson
