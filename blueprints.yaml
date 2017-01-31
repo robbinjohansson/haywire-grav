@@ -1,6 +1,6 @@
 name: Haywire
 version: 0.1.0
-description: "Starter theme for to help developers get started quickly on their new projects using modern frameworks and tools such as yarn, laravel-elixir & bootstrap."
+description: "Starter theme to help developers get started quickly on new projects using modern frameworks and tools such as yarn, laravel-elixir & bootstrap."
 icon: crosshairs
 author:
  name: Robbin Johansson
