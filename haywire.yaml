@@ -1,3 +1,7 @@
+enabled: true
+dropdown:
+  enabled: false
+
 streams:
  schemes:
    theme:

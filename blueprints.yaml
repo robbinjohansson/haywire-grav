@@ -1,15 +1,16 @@
 name: Haywire
-version: 0.1.2
-description: "Starter theme for developers to get up and running quickly on new projects using modern frameworks and tools such as yarn, laravel-elixir & bootstrap-sass."
+version: 0.1.3
+description: Starter theme for developers to get up and running quickly on new projects using modern frameworks and tools such as yarn, laravel-elixir & bootstrap-sass.
 icon: empire
 author:
- name: Robbin Johansson
- email: robbinfellow@gmail.com
- url: http://haywire.me
+  name: Robbin Johansson
+  email: robbinfellow@gmail.com
+  url: http://haywire.me
 homepage: https://github.com/robbinfellow/haywire-grav
-demo: Coming soon
+demo: http://haywire.me/haywire-grav-demo
 keywords: haywire, yarn, laravel-elixir, bootstrap-sass, gulp, bower, css3
 bugs: https://github.com/robbinfellow/haywire-grav/issues
+docs: https://github.com/robbinfellow/haywire-grav/blob/master/README.md
 license: MIT
 
 form:
