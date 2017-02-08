@@ -36,7 +36,7 @@ Haywire is a modern starter theme for [getgrav](https://getgrav.org/). The idea 
 
 ### Demo
 
-Copy the `pages/` folder from `_demo/` into your `user/pages/` folder for a quick demo of content.
+Copy the contents of `_demo/pages/` into your `user/pages/` folder for a quick demo content of your site.
 
 ### Gulp
 
