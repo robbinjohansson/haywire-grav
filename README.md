@@ -34,6 +34,10 @@ Haywire is a modern starter theme for [getgrav](https://getgrav.org/). The idea 
         $ gulp
 
 
+### Demo
+
+Copy the `pages/` folder from `_demo/` into your `user/pages/` folder for a quick demo of content.
+
 ### Gulp
 
 Compile assets => `gulp`
