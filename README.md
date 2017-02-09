@@ -2,6 +2,8 @@
 
 Haywire is a modern starter theme for [getgrav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new getgrav projects using modern frameworks and tools such as [yarn](https://yarnpkg.com/), [laravel-elixir](https://laravel.com/docs/5.3/elixir), [bootstrap](https://github.com/twbs/bootstrap-sass).
 
+> **Note:** This theme is under active development, always use the `master` branch for the latest version.
+
 ![screenshot](https://github.com/robbinfellow/haywire-grav/blob/master/screenshot.jpg?raw=true)
 
 ## Features
@@ -38,6 +40,8 @@ Haywire is a modern starter theme for [getgrav](https://getgrav.org/). The idea 
 
 Copy the contents of `_demo/pages/` into your `user/pages/` folder for a quick demo content of your site.
 
+> **Note:** Will add a live demo-link of the theme soon!
+
 ### Gulp
 
 Compile assets => `gulp`
@@ -46,7 +50,7 @@ Watch scss/js => `gulp watch`
 
 Minify assets => `gulp --production`
 
-**Note:** _(compiled assets goes into the /dist directory)_
+> **Note:** _(compiled assets goes into the `/dist` directory)_
 
 ### Yarn
 
@@ -56,13 +60,26 @@ Remove package => `yarn remove packagename --save-dev`
 
 ### Other
 
-_The `templates/default.html.twig` is setup to display the latest subpages of your @home page as blogposts._
+The `templates/default.html.twig` is setup to display the latest subpages of your **@home** page as blogposts.
 
-## Useful links
+## Contribute
 
-* [yarn](https://yarnpkg.com/en/docs/)
-* [bootstrap-sass](https://github.com/twbs/bootstrap-sass)
-* [gulp](http://gulpjs.com/)
-* [laravel-elixir](https://laravel.com/docs/5.3/elixir)
-* [getgrav](https://learn.getgrav.org/)
-* [bower](https://bower.io/)
+Contributions are welcome from everyone.
+
+### Bug reports
+
+Create an [issue](https://github.com/robbinfellow/haywire-grav/issues) with detailed information regarding the problem.
+
+### Feature requests
+
+Feature requests are more than welcome! Create an [issue](https://github.com/robbinfellow/haywire-grav/issues) or make a pull request with a detailed description of your request. 
+
+## Donations
+
+If this project helps you develop your grav-site in a faster, more efficient way, feel free to give me a cup of :coffee: :)
+
+[![paypal.me/robbinfellow](https://www.paypalobjects.com/webstatic/paypalme/images/pp_logo_small.png)](https://www.paypal.me/robbinfellow)
+
+## License
+
+Haywire getgrav theme is an open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
