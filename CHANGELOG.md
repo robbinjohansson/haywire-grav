@@ -1,10 +1,12 @@
 # v0.1.3
-## 02/08/2017
+## 02/10/2017
 
 1. [](#new)
-  	* Demo content of pages > `_demo/pages/` [#1](https://github.com/robbinfellow/haywire-grav/issues/1)
+  	* Demo content of pages > `_demo/pages/` - [#1](https://github.com/robbinfellow/haywire-grav/issues/1)
+  	* Added [live demo](http://haywire.me/haywire-grav-demo/) - [#2](https://github.com/robbinfellow/haywire-grav/issues/2)
 2. [](#improved)
-    * Updated theme specifics details for better overview
+    * Updated theme specific details for better overview
+    * Updated changelog to correct formats
 
 # v0.1.2
 ## 01/31/2017
