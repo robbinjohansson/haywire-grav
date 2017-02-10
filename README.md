@@ -2,9 +2,9 @@
 
 Haywire is a modern starter theme for [getgrav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new getgrav projects using modern frameworks and tools such as [yarn](https://yarnpkg.com/), [laravel-elixir](https://laravel.com/docs/5.3/elixir), [bootstrap](https://github.com/twbs/bootstrap-sass).
 
-> **Note:** This theme is under active development, always use the `master` branch for the latest version.
+[Live demo](http://haywire.me/haywire-grav-demo/)
 
-![screenshot](https://github.com/robbinfellow/haywire-grav/blob/master/screenshot.jpg?raw=true)
+> **Note:** This theme is under active development, always use the `master` branch for the latest version.
 
 ## Features
 
@@ -26,7 +26,7 @@ Haywire is a modern starter theme for [getgrav](https://getgrav.org/). The idea 
         $ gulp
 
 
-### Manual
+### Manual installation
         
         $ cd ~/gravroot/user/themes
         $ git clone https://github.com/robbinfellow/haywire-grav.git haywire
@@ -40,7 +40,7 @@ Haywire is a modern starter theme for [getgrav](https://getgrav.org/). The idea 
 
 Copy the contents of `_demo/pages/` into your `user/pages/` folder for a quick demo content of your site.
 
-> **Note:** Will add a live demo-link of the theme soon!
+[This](http://haywire.me/haywire-grav-demo/) is what is should look like with a fresh install.
 
 ### Gulp
 
@@ -57,10 +57,6 @@ Minify assets => `gulp --production`
 Install package => `yarn add packagename --save-dev`
 
 Remove package => `yarn remove packagename --save-dev`
-
-### Other
-
-The `templates/default.html.twig` is setup to display the latest subpages of your **@home** page as blogposts.
 
 ## Contribute
 
