@@ -40,8 +40,6 @@ Haywire is a modern starter theme for [getgrav](https://getgrav.org/). The idea 
 
 Copy the contents of `_demo/pages/` into your `user/pages/` folder for a quick demo content of your site.
 
-[This](http://haywire.me/haywire-grav-demo/) is what is should look like with a fresh install.
-
 ### Gulp
 
 Compile assets => `gulp`
@@ -68,7 +66,7 @@ Create an [issue](https://github.com/robbinfellow/haywire-grav/issues) with deta
 
 ### Feature requests
 
-Feature requests are more than welcome! Create an [issue](https://github.com/robbinfellow/haywire-grav/issues) or make a pull request with a detailed description of your request. 
+Feature requests are more than welcome! Create an [issue](https://github.com/robbinfellow/haywire-grav/issues) or make a [pull request](https://github.com/robbinfellow/haywire-grav/pulls) with a detailed description of your request. 
 
 ## Donations
 
