@@ -4,7 +4,7 @@ Haywire is a modern starter theme for [getgrav](https://getgrav.org/). The idea 
 
 [Live demo](http://haywire.me/haywire-grav-demo/)
 
-> **Note:** This theme is under active development, always use the `master` branch for the latest version.
+> This theme is under active development, always use the `master` branch for the latest version.
 
 ## Features
 
@@ -48,7 +48,7 @@ Watch scss/js => `gulp watch`
 
 Minify assets => `gulp --production`
 
-> **Note:** _(compiled assets goes into the `/dist` directory)_
+> Compiled assets goes into the `/dist` directory
 
 ### Yarn
 
