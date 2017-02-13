@@ -16,29 +16,31 @@ Haywire is a modern starter theme for [getgrav](https://getgrav.org/). The idea 
 
 ## Installation / Usage
 
-### bin/gpm
+### bin/gpm ([Grav Package Manager](http://learn.getgrav.org/advanced/grav-gpm))
         
-        $ cd ~/gravroot
-        $ bin/gpm install haywire
-        $ cd /user/themes/haywire
-        $ yarn
-        $ bower install
-        $ gulp
+    $ cd ~/gravroot
+    $ bin/gpm install haywire
+    $ cd /user/themes/haywire
+    $ yarn
+    $ bower install
+    $ gulp
 
 
 ### Manual installation
         
-        $ cd ~/gravroot/user/themes
-        $ git clone https://github.com/robbinfellow/haywire-grav.git haywire
-        $ cd haywire
-        $ yarn
-        $ bower install
-        $ gulp
+    $ cd ~/gravroot/user/themes
+    $ git clone https://github.com/robbinfellow/haywire-grav.git haywire
+    $ cd haywire
+    $ yarn
+    $ bower install
+    $ gulp
 
 
 ### Demo
 
 Copy the contents of `_demo/pages/` into your `user/pages/` folder for a quick demo content of your site.
+
+> Installing through bin/gpm will prompt you to install the demo content automatically.
 
 ### Gulp
 
@@ -55,6 +57,14 @@ Minify assets => `gulp --production`
 Install package => `yarn add packagename --save-dev`
 
 Remove package => `yarn remove packagename --save-dev`
+
+## Updating
+
+### bin/gpm update
+
+The easiest way to update this theme is via the Grav Package Manager:
+
+    bin/gpm update haywire
 
 ## Contribute
 
