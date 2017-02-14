@@ -6,29 +6,14 @@
 
 // TEMPLATE COMPONENTS
 
-// Fonts
-@import "template/fonts";
-
-// Typography
-@import "template/typography";
-
-// Sass helper classes
+// Global helper classes
 @import "template/_global";
 
-// Buttons
-@import "template/buttons";
-
 // Header
-@import "template/header";
+@import "template/_header";
 
 // Footer
-@import "template/footer";
+@import "template/_footer";
 
-// Forms
-@import "template/forms";
-
-// Blog
-@import "template/blog";
-
-// Custom
+// Custom style
 @import "template/_custom";

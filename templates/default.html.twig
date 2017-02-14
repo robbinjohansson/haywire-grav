@@ -2,34 +2,39 @@
 
 {% block content %}
 	<div class="row">
-		<div class="col-sm-12">
+		<div class="col-xs-12">
 			{{ page.content }}
+
+			<hr>
+
 		</div>
 	</div>
-{% endblock %}
 
-{# List 3 latest childpages of /home as posts #}
-{% block latestPosts %}
-<div class="row">
-	<div class="col-sm-12">
-		
-		{% for post in page.find('/home').children.order('date', 'desc').slice(0, 3) %}
-			
-			<h2>{{ post.title }}</h2>
-			{% if post.summary %}
-				{{ post.summary(200) }}
-			{% else %}
-				<em>No summary available</em>
-			{% endif %}
+			<div class="row">
 
-			{% if post.header.publish_date %}
-				<div class="row">
-					<div class="col-sm-12 mtl mbl">Created at {{ post.header.publish_date }}</div>
-				</div>
-			{% endif %}
-			
-		{% endfor %}
+				{% for post in page.find('/blog').children.order('date', 'desc').slice(0, 3) %}
 
-	</div>
-</div>
+					<div class="col-xs-12 mtxl">
+
+						<div class="col-sm-2">
+							<img width="100%" src="/blog/{{ post.folder }}/{{ post.header.featured_image }}">
+						</div>
+
+						<div class="col-sm-10">
+
+							<h3 class="mts">{{ post.title }}</h3>
+							{% if post.summary %}
+								{{ post.summary(400) }}
+							{% else %}
+								<em>No summary available</em>
+							{% endif %}
+
+						</div>
+
+					</div>
+					
+				{% endfor %}
+
+			</div>
+
 {% endblock %}

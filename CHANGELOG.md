@@ -1,3 +1,21 @@
+# v0.1.4
+## 02/14/2017
+
+1. [](#new)
+  	* Added custom blueprints
+    * Added custom language settings
+    * Added featured image to blog item
+2. [](#improved)
+    * Restructured twig templates
+    * Cleaner base twig template
+    * Better blog functionality
+    * New theme thumbnail
+    * New theme screenshot
+    * Updated demo site
+    * Updated `_demo`
+3. [](#deleted)
+    * Deleted unused scss files
+
 # v0.1.3
 ## 02/10/2017
 
