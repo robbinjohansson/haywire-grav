@@ -13,7 +13,7 @@
     * New theme screenshot
     * Updated demo site
     * Updated `_demo`
-3. [](#deleted)
+3. [](#bugfix)
     * Deleted unused scss files
 
 # v0.1.3
