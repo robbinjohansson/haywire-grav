@@ -1,3 +1,9 @@
+# v0.1.5
+## 02/14/2017
+
+1. [](#bugfix)
+    * Fix path to featured image
+
 # v0.1.4
 ## 02/14/2017
 
@@ -14,7 +20,7 @@
     * Updated demo site
     * Updated `_demo`
 3. [](#bugfix)
-    * Deleted unused scss files
+    * Removed unused scss files
 
 # v0.1.3
 ## 02/10/2017
