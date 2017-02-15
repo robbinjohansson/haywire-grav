@@ -25,6 +25,14 @@ form:
                 - .png
                 - .jpg
 
+            header.post_data:
+              type: selectize
+              label: HAYWIRE.POST_DATA_TAGS
+              classes: fancy
+              style: vertical
+              validate:
+                  type: commalist
+
             header.title:
               type: text
               autofocus: true
