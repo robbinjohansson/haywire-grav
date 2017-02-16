@@ -1,16 +1,17 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-	{{ dump(page) }}
 	<div class="row mtxl">
 		<div class="col-xs-12">
-			<img width="100%" style="max-width: 220px;" src="{{ page.url }}/{{ page.header.featured_image }}">
-			<h1>{{ page.title }}</h1>
-			{{ page.content }} <br />
 
-			{% for post_data in page.header.post_data %}
-				<small>#{{ post_data }} </small>
-			{% endfor %}
+			<div class="col-sm-9">
+				<h1 class="nmt">{{ page.title }}</h1>
+				{{ page.content }}
+			</div>
+
+			<div class="col-sm-3 mtxl">
+				<img width="100%" src="{{ page.url }}/{{ page.header.featured_image }}">
+			</div>
 
 		</div>
 	</div>
