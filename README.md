@@ -2,11 +2,13 @@
 
 # Haywire theme for getgrav CMS
 
-Haywire is a modern starter theme for [getgrav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new getgrav projects using modern frameworks and tools such as [yarn](https://yarnpkg.com/), [laravel-elixir](https://laravel.com/docs/5.3/elixir), [bootstrap](https://github.com/twbs/bootstrap-sass).
+Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new getgrav projects using modern frameworks and tools such as [yarn](https://yarnpkg.com/), [laravel-elixir](https://laravel.com/docs/5.3/elixir), [bootstrap](https://github.com/twbs/bootstrap-sass).
+
+**_It is recommended that you are using the [admin-plugin package](https://github.com/getgrav/grav-plugin-admin) when using this theme._**
 
 [Live demo](http://haywire.me/haywire-grav-demo/)
 
-> This theme is under active development, always use the `master` branch for the latest version.
+> This theme is under active development, use `master` branch for the latest version.
 
 ## Features
 
@@ -18,7 +20,7 @@ Haywire is a modern starter theme for [getgrav](https://getgrav.org/). The idea 
 
 ## Installation / Usage
 
-### bin/gpm ([Grav Package Manager](http://learn.getgrav.org/advanced/grav-gpm))
+### (Recommended) bin/gpm ([Grav Package Manager](http://learn.getgrav.org/advanced/grav-gpm))
         
     $ cd ~/gravroot
     $ bin/gpm install haywire
@@ -26,7 +28,6 @@ Haywire is a modern starter theme for [getgrav](https://getgrav.org/). The idea 
     $ yarn
     $ bower install
     $ gulp
-
 
 ### Manual installation
         
@@ -37,12 +38,11 @@ Haywire is a modern starter theme for [getgrav](https://getgrav.org/). The idea 
     $ bower install
     $ gulp
 
-
 ### Demo
 
-Copy the contents of `_demo/pages/` into your `user/pages/` folder for a quick demo content of your site.
+Installing through bin/gpm will prompt you to install the demo content automatically. 
 
-> Installing through bin/gpm will prompt you to install the demo content automatically.
+However if you install the theme manually you can copy the contents of `_demo/pages/` into your `user/pages/` folder for a quick demo content of your site.
 
 ### Gulp
 
@@ -52,7 +52,7 @@ Watch scss/js => `gulp watch`
 
 Minify assets => `gulp --production`
 
-> Compiled assets goes into the `/dist` directory
+> Compiled assets goes into the `/dist` directory, these files are generated for you through laravel-elixir, you should **not** edit these files manually!
 
 ### Yarn
 
@@ -78,7 +78,7 @@ Create an [issue](https://github.com/robbinfellow/haywire-grav/issues) with deta
 
 ### Feature requests
 
-Feature requests are more than welcome! Create an [issue](https://github.com/robbinfellow/haywire-grav/issues) or make a [pull request](https://github.com/robbinfellow/haywire-grav/pulls) to the `develop` branch with detailed information/description of your request.
+Feature requests are more than welcome! Create an [issue](https://github.com/robbinfellow/haywire-grav/issues) or make a [pull request](https://github.com/robbinfellow/haywire-grav/pulls) to `develop` branch with detailed information/description of your request.
 
 ## Donations
 

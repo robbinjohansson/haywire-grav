@@ -3,7 +3,7 @@
         {% set current_page = (p.active or p.activeChild) ? 'active' : '' %}
         {% if p.children.visible.count > 0 %}
             <li class="has-children {{ p.slug }} {{ current_page }}">
-                <a href="{{ p.url }}">
+                <a {% if p.template == 'external' %} target="_BLANK" {% endif %} href="{{ p.url }}">
                     {{ p.menu }}
                 </a>
                 <ul class="dropdown">
@@ -12,7 +12,7 @@
             </li>
         {% else %}
             <li class="{{ p.slug }} {{ current_page }}">
-                <a href="{{ p.url }}">
+                <a {% if p.template == 'external' %} target="_BLANK" {% endif %} href="{{ p.url }}">
                     {{ p.menu }}
                 </a>
             </li>

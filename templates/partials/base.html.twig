@@ -10,15 +10,19 @@
 
     <div class="container">
 
-        {% block header %}
-            {% include 'partials/header.html.twig' %}
-        {% endblock %}
+        <div class="col-sm-8 col-sm-offset-2">
 
-        {% block content %}{% endblock %}
+            {% block header %}
+                {% include 'partials/header.html.twig' %}
+            {% endblock %}
 
-        {% block footer %}
-            {% include 'partials/footer.html.twig' %}
-        {% endblock %}
+            {% block content %}{% endblock %}
+
+            {% block footer %}
+                {% include 'partials/footer.html.twig' %}
+            {% endblock %}
+
+        </div>
 
     </div>
 

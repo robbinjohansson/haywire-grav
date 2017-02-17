@@ -3,14 +3,19 @@
 {% block content %}
 	<div class="row mtxl">
 		<div class="col-xs-12">
+			<div class="row">
+				<div class="col-md-8">
+					<h1 class="nmt">{{ page.title }}</h1>
+					{{ page.content }}
+				</div>
 
-			<div class="col-sm-9">
-				<h1 class="nmt">{{ page.title }}</h1>
-				{{ page.content }}
-			</div>
-
-			<div class="col-sm-3 mtxl">
-				<img width="100%" src="{{ page.url }}/{{ page.header.featured_image }}">
+				<div class="col-md-4 mtxl">
+					{% if page.header.featured_image %}
+						<img width="100%" src="{{ page.url }}/{{ page.header.featured_image }}">
+					{% else %}
+						<img width="100%" src="https://unsplash.it/800/">
+					{% endif %}
+				</div>
 			</div>
 
 		</div>

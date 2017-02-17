@@ -10,34 +10,40 @@
 		</div>
 	</div>
 
-			<div class="row">
+			<div class="row posts">
 
 				{% for post in page.find('/blog').children.order('date', 'desc').slice(0, 3) %}
 
-					<div class="col-xs-12 mtxl">
-						
-						<div class="col-sm-2 paxs">
+					<div class="col-sm-12 post npl npr">
 
-							{% if post.header.featured_image %}
-								<img width="100%" src="{{ base_url }}/blog/{{ post.folder }}/{{ post.header.featured_image }}">
-							{% else %}
-								<img width="100%" src="https://unsplash.it/800/">
-							{% endif %}
+							<div class="col-md-9 post-content">
+
+								<h3 class="mtxs"><a href="{{ post.route }}">{{ post.title }}</a></h3>
+								{% if post.summary %}
+									<div class="summary">
+										{{ post.summary(320) }}
+									</div>
+								{% else %}
+									<div class="summary">
+										<em>This post has no summary!</em>
+									</div>
+								{% endif %}
+
+							</div>
+
+							<div class="col-md-3 paxs">
+
+								<a href="{{ post.route }}">
+									{% if post.header.featured_image %}
+										<img width="100%" src="{{ base_url }}/blog/{{ post.folder }}/{{ post.header.featured_image }}">
+									{% else %}
+										<img width="100%" src="https://unsplash.it/800/">
+									{% endif %}
+								</a>
+
+							</div>
 
 						</div>
-
-						<div class="col-sm-10">
-
-							<a href="{{ post.route }}"><h3 class="mts">{{ post.title }}</h3></a>
-							{% if post.summary %}
-								{{ post.summary(400) }}<br />
-							{% else %}
-								<em>This post has no summary!</em>
-							{% endif %}
-
-						</div>
-
-					</div>
 					
 				{% endfor %}
 

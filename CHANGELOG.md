@@ -1,16 +1,21 @@
 # v0.1.6
-## TBD
+## 02/17/2017
 
 1. [](#new)
-    * Added ability to toggle featured image
-    * Added placeholder image for featured image when empty
-    * Added links to each blogpost listed in default template
-    * Added slug class to navigation list items
-    * Added dropdown class to dropdown menu
+    * Ability to toggle featured image on items from backend
+    * Placeholder image for featured image when empty
+    * Title of blogposts is now wrapped with a link to the post
+    * Navigation list items gets the class of their slug
+    * Class `.dropdown` is added to navigation submenus
+    * Custom blueprint for external pages
+    * External pages in navigation opens in a new window
 2. [](#improved)
     * Minor update to item template layout
     * Navigation submenu is now enabled by default
     * Clean up navigation twig template
+    * Updated demo content
+    * Updated theme details
+    * Global style/layout updates
 
 # v0.1.5
 ## 02/14/2017
