@@ -4,7 +4,7 @@
 
 Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new getgrav projects using modern frameworks and tools such as [yarn](https://yarnpkg.com/), [laravel-elixir](https://laravel.com/docs/5.3/elixir), [bootstrap](https://github.com/twbs/bootstrap-sass).
 
-**_It is recommended that you are using the [admin-plugin package](https://github.com/getgrav/grav-plugin-admin) when using this theme._**
+**_It is recommended that you install the [admin-plugin package](https://github.com/getgrav/grav-plugin-admin) when using this theme._**
 
 [Live demo](http://haywire.me/haywire-grav-demo/)
 
