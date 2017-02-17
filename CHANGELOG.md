@@ -1,3 +1,11 @@
+# v0.1.7
+## 02/17/2017
+
+1. [](#bugfix)
+    * Fix path to blogitems
+    * Force update of theme screenshot
+    * Minify assets
+
 # v0.1.6
 ## 02/17/2017
 
