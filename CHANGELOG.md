@@ -1,3 +1,11 @@
+# v0.1.8
+## 02/18/2017
+
+1. [](#bugfix)
+    * Add correct devDependencies in `package.json`
+    * Fix typo in docs
+    * Modify theme description
+
 # v0.1.7
 ## 02/17/2017
 

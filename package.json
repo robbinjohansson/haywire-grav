@@ -1,11 +1,14 @@
 {
   "name": "haywire",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "main": "index.js",
   "repository": "https://github.com/robbinfellow/haywire-grav.git",
   "author": "Robbin Johansson <robbinfellow@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "gulp": "^3.9.1",
     "laravel-elixir": "^6.0.0-15",
     "laravel-elixir-browserify-official": "^0.1.3"
   }
