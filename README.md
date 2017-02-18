@@ -1,8 +1,8 @@
 [![GitHub release](https://img.shields.io/github/release/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/releases) [![](https://img.shields.io/github/issues-raw/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/issues) [![license](https://img.shields.io/github/license/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/blob/master/LICENSE)
 
-# Haywire theme for getgrav CMS
+# Boilerplate/theme for getgrav CMS
 
-Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new getgrav projects using modern frameworks and tools such as [yarn](https://yarnpkg.com/), [laravel-elixir](https://laravel.com/docs/5.3/elixir), [bootstrap](https://github.com/twbs/bootstrap-sass).
+Haywire is a modern starter theme/boilerplate for [Grav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new getgrav projects using modern frameworks and tools such as [yarn](https://yarnpkg.com/), [laravel-elixir](https://laravel.com/docs/5.3/elixir), [bootstrap](https://github.com/twbs/bootstrap-sass).
 
 **_It is recommended that you install the [admin-plugin package](https://github.com/getgrav/grav-plugin-admin) when using this theme._**
 
@@ -44,7 +44,7 @@ Installing through bin/gpm will prompt you to install the demo content automatic
 
 However if you install the theme manually you can copy the contents of `_demo/pages/` into your `user/pages/` folder for a quick demo content of your site.
 
-### Gulp
+### Laravel elixir
 
 Compile assets => `gulp`
 
@@ -53,12 +53,6 @@ Watch scss/js => `gulp watch`
 Minify assets => `gulp --production`
 
 > Compiled assets goes into the `/dist` directory, these files are generated for you through laravel-elixir, you should **not** edit these files manually!
-
-### Yarn
-
-Install package => `yarn add packagename --save-dev`
-
-Remove package => `yarn remove packagename --save-dev`
 
 ## Updating
 
@@ -88,4 +82,4 @@ If this project helps you develop your grav-site in a faster, more efficient way
 
 ## License
 
-Haywire getgrav theme is an open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Haywire grav theme is an open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
