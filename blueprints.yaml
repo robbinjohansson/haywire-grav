@@ -1,5 +1,5 @@
 name: Haywire
-version: 0.1.8
+version: 0.1.9
 description: Starter theme/boilerplate for developers to get up and running quickly on new projects using modern frameworks and tools such as yarn, laravel-elixir & bootstrap-sass.
 icon: empire
 author:
@@ -8,7 +8,7 @@ author:
   url: http://haywire.me
 homepage: https://github.com/robbinfellow/haywire-grav
 demo: http://haywire.me/haywire-grav-demo/
-keywords: haywire, boilerplate, starter-theme, yarn, laravel-elixir, bootstrap-sass, gulp, bower
+keywords: haywire, boilerplate, starter-theme, yarn, laravel-elixir, bootstrap-sass, gulp
 bugs: https://github.com/robbinfellow/haywire-grav/issues
 docs: https://github.com/robbinfellow/haywire-grav/blob/master/README.md
 license: MIT

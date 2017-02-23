@@ -1,3 +1,12 @@
+# v0.1.9
+## TBD
+
+1. [](#improved)
+    * Removed bower (thanks [@Sogl](https://github.com/Sogl)) - [#PR-3](https://github.com/robbinfellow/haywire-grav/pull/3)
+    * Modify gulp imports (thanks [@Sogl](https://github.com/Sogl)) - [#PR-3](https://github.com/robbinfellow/haywire-grav/pull/3)
+2. [](#bugfix)
+    * Gulp should require jquery first (thanks [@Sogl](https://github.com/Sogl)) - [#PR-3](https://github.com/robbinfellow/haywire-grav/pull/3)
+
 # v0.1.8
 ## 02/18/2017
 
