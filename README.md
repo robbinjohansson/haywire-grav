@@ -16,7 +16,6 @@ Haywire is a modern starter theme/boilerplate for [Grav](https://getgrav.org/). 
 * Bootstrap-sass
 * Laravel-elixir
 * Gulp
-* Bower
 
 ## Installation / Usage
 
@@ -26,7 +25,6 @@ Haywire is a modern starter theme/boilerplate for [Grav](https://getgrav.org/). 
     $ bin/gpm install haywire
     $ cd /user/themes/haywire
     $ yarn
-    $ bower install
     $ gulp
 
 ### Manual installation
@@ -35,7 +33,6 @@ Haywire is a modern starter theme/boilerplate for [Grav](https://getgrav.org/). 
     $ git clone https://github.com/robbinfellow/haywire-grav.git haywire
     $ cd haywire
     $ yarn
-    $ bower install
     $ gulp
 
 ### Demo

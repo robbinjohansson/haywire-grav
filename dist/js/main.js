@@ -1,4 +1,1 @@
-$().ready(function() {
-// Custom jQuery
-});
-//# sourceMappingURL=main.js.map
+$().ready(function(){});

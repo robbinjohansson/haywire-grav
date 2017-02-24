@@ -1,3 +1,13 @@
+# v0.1.9
+## 02/24/2017
+
+1. [](#improved)
+    * Removed bower (use yarn instead) [PR #3](https://github.com/robbinfellow/haywire-grav/pull/3)
+    * Modified gulp imports [PR #3](https://github.com/robbinfellow/haywire-grav/pull/3)
+    * Improved `item.yaml` template
+2. [](#bugfix)
+    * Gulp should require jquery first [PR #3](https://github.com/robbinfellow/haywire-grav/pull/3)
+
 # v0.1.8
 ## 02/18/2017
 
