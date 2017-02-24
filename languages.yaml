@@ -3,3 +3,4 @@ en:
     FEATURED_IMAGE: 'Featured image'
     FEATURED_IMAGE_HELP: 'Set a featured image related to the post, if disabled or empty a random stock image will be used instead.'
     FEATURED_IMAGE_PLACEHOLDER: 'Choose from page media'
+    EXTRAS: 'Extras'

@@ -20,7 +20,7 @@ form:
 
             extras:
               type: section
-              title: Extras
+              title: HAYWIRE.EXTRAS
               underline: true
 
               fields:
