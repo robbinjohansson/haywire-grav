@@ -13,5 +13,6 @@
 {% block javascripts %}
     {% do assets.addJs('theme://dist/js/vendor.js', 100) %}
     {% do assets.addJs('theme://dist/js/main.js', 10) %}
+    {% do assets.addJs('theme://dist/js/vue.js', {group: 'bottom'}) %}
 {% endblock %}
 {{ assets.js() }}
