@@ -1,10 +1,12 @@
 # v0.2.0
-## TBD
+## 02/26/2017
 
 1. [](#improved)
     * Add [vuejs](http://vuejs.org/)
     * Add vue example component (`/js/vue/components/Example.vue`)
     * Support `.vue` files
+2. [](#bugfix)
+    * Remove footer from item template
 
 # v0.1.9
 ## 02/24/2017

@@ -25,9 +25,13 @@
 
     </div>
 
-    {% block footer %}
-        {% include 'partials/footer.html.twig' %}
-    {% endblock %}
+    {% if page.template != 'item' %}
+
+        {% block footer %}
+            {% include 'partials/footer.html.twig' %}
+        {% endblock %}
+
+    {% endif %}
 
 </div>
 
