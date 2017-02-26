@@ -1,3 +1,3 @@
 $().ready(function() {
-// Custom jQuery
+	// Happy coding! :)
 });

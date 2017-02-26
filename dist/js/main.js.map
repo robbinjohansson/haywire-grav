@@ -1,1 +1,1 @@
-{"version":3,"sources":["_main.js"],"names":[],"mappings":"AAAA;AACA;AACA","file":"main.js","sourcesContent":["$().ready(function() {\n// Custom jQuery\n});"]}
+{"version":3,"sources":["_main.js"],"names":[],"mappings":"AAAA;AACA;AACA","file":"main.js","sourcesContent":["$().ready(function() {\n\t// Happy coding! :)\n});"]}

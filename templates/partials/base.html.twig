@@ -8,6 +8,9 @@
 </head>
 <body class="{{ page.header.body_classes }}">
 
+{# Wrapping our content in #app to allow vue components #}
+<div id="app">
+
     <div class="container">
 
         <div class="col-sm-8 col-sm-offset-2">
@@ -18,13 +21,23 @@
 
             {% block content %}{% endblock %}
 
-            {% block footer %}
-                {% include 'partials/footer.html.twig' %}
-            {% endblock %}
-
         </div>
 
     </div>
+
+    {% if page.template != 'item' %}
+
+        {% block footer %}
+            {% include 'partials/footer.html.twig' %}
+        {% endblock %}
+
+    {% endif %}
+
+</div>
+
+{% block bottom %}
+    {{ assets.js('bottom') }}
+{% endblock %}
 
 </body>
 </html>

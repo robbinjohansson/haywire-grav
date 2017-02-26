@@ -1,10 +1,20 @@
+# v0.2.0
+## 02/26/2017
+
+1. [](#improved)
+    * Add [vuejs](http://vuejs.org/)
+    * Add vue example component (`/js/vue/components/Example.vue`)
+    * Support `.vue` files
+2. [](#bugfix)
+    * Remove footer from item template
+
 # v0.1.9
 ## 02/24/2017
 
 1. [](#improved)
-    * Removed bower (use yarn instead) [PR #3](https://github.com/robbinfellow/haywire-grav/pull/3)
-    * Modified gulp imports [PR #3](https://github.com/robbinfellow/haywire-grav/pull/3)
-    * Improved `item.yaml` template
+    * Remove bower (use yarn instead) [PR #3](https://github.com/robbinfellow/haywire-grav/pull/3)
+    * Modify gulp imports [PR #3](https://github.com/robbinfellow/haywire-grav/pull/3)
+    * Improve `item.yaml` template
 2. [](#bugfix)
     * Gulp should require jquery first [PR #3](https://github.com/robbinfellow/haywire-grav/pull/3)
 
