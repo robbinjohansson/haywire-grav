@@ -45,7 +45,7 @@ However if you install the theme manually you can copy the contents of `_demo/pa
 
 Compile assets => `npm run dev`
 
-Watch scss/js => `npm run dev`
+Watch scss/js => `npm run watch`
 
 Minify assets => `npm run production`
 
