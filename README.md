@@ -2,7 +2,7 @@
 
 # Boilerplate/theme for getgrav CMS
 
-Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new grav projects using modern frameworks and tools such as [Laravel Mix](https://laravel.com/docs/5.4/mix), [vuejs](http://vuejs.org/), [bootstrap-sass](https://github.com/twbs/bootstrap-sass).
+Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new grav projects using modern frameworks and tools such as [Laravel Mix](https://laravel.com/docs/5.4/mix), [Vuejs](http://vuejs.org/), [Bootstrap-sass](https://github.com/twbs/bootstrap-sass).
 
 **_It is recommended that you install the [admin-plugin package](https://github.com/getgrav/grav-plugin-admin) when using this theme._**
 
@@ -47,7 +47,7 @@ Compile assets => `npm run dev`
 
 Watch scss/js => `npm run dev`
 
-Minify assets => `npm run --production`
+Minify assets => `npm run production`
 
 > Compiled assets goes into the `/dist` directory, these files are generated for you through Laravel Mix, you should **not** edit these files manually!
 

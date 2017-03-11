@@ -1,6 +1,6 @@
 name: Haywire
 version: 0.2.1
-description: Starter theme/boilerplate for developers to get up and running quickly on new projects using modern frameworks and tools such as laravel-mix, vuejs & bootstrap-sass.
+description: Starter theme/boilerplate for developers to get up and running quickly on new projects using modern frameworks and tools such as laravel-mix, vuejs, webpack & bootstrap-sass.
 icon: empire
 author:
   name: Robbin Johansson
