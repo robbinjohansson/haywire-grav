@@ -1,3 +1,10 @@
+# v0.2.1
+## 03/11/2017
+
+1. [](#improved)
+    * Yarn -> npm
+    * Laravel Elixir -> Laravel Mix
+
 # v0.2.0
 ## 02/26/2017
 
