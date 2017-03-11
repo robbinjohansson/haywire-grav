@@ -2,7 +2,7 @@
 
 # Boilerplate/theme for getgrav CMS
 
-Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new grav projects using modern frameworks and tools such as [yarn](https://yarnpkg.com/), [laravel-elixir](https://laravel.com/docs/5.3/elixir), [vuejs](http://vuejs.org/), [bootstrap](https://github.com/twbs/bootstrap-sass).
+Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new grav projects using modern frameworks and tools such as [Laravel Mix](https://laravel.com/docs/5.4/mix), [vuejs](http://vuejs.org/), [bootstrap-sass](https://github.com/twbs/bootstrap-sass).
 
 **_It is recommended that you install the [admin-plugin package](https://github.com/getgrav/grav-plugin-admin) when using this theme._**
 
@@ -12,10 +12,9 @@ Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea beh
 
 ## Features
 
-* Yarn
+* Laravel Mix
 * Bootstrap-sass
-* Laravel-elixir
-* Gulp
+* Webpack
 * Vuejs
 
 ## Installation / Usage
@@ -25,16 +24,16 @@ Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea beh
     $ cd ~/gravroot
     $ bin/gpm install haywire
     $ cd /user/themes/haywire
-    $ yarn
-    $ gulp
+    $ npm install
+    $ npm run dev
 
 ### Manual installation
         
     $ cd ~/gravroot/user/themes
     $ git clone https://github.com/robbinfellow/haywire-grav.git haywire
     $ cd haywire
-    $ yarn
-    $ gulp
+    $ npm install
+    $ npm run dev
 
 ### Demo
 
@@ -42,15 +41,15 @@ Installing through bin/gpm will prompt you to install the demo content automatic
 
 However if you install the theme manually you can copy the contents of `_demo/pages/` into your `user/pages/` folder for a quick demo content of your site.
 
-### Laravel elixir
+### Laravel Mix
 
-Compile assets => `gulp`
+Compile assets => `npm run dev`
 
-Watch scss/js => `gulp watch`
+Watch scss/js => `npm run dev`
 
-Minify assets => `gulp --production`
+Minify assets => `npm run --production`
 
-> Compiled assets goes into the `/dist` directory, these files are generated for you through laravel-elixir, you should **not** edit these files manually!
+> Compiled assets goes into the `/dist` directory, these files are generated for you through Laravel Mix, you should **not** edit these files manually!
 
 ## Updating
 
