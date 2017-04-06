@@ -6,7 +6,7 @@ Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea beh
 
 **_It is recommended that you install the [admin-plugin package](https://github.com/getgrav/grav-plugin-admin) when using this theme._**
 
-[Live demo](http://haywire.me/haywire-grav-demo/)
+[Live demo](http://grav.haywire.me/)
 
 > This theme is under active development, use `master` branch for the latest version.
 

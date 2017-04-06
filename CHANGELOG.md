@@ -1,3 +1,9 @@
+# v0.2.2
+## 04/06/2017
+
+1. [](#bugfix)
+    * Update [demo-site](http://grav.haywire.me/) with new url.
+
 # v0.2.1
 ## 03/11/2017
 
