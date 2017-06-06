@@ -14,7 +14,6 @@ Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea beh
 
 * Laravel Mix
 * Bootstrap-sass
-* Webpack
 * Vuejs
 
 ## Installation / Usage
@@ -24,16 +23,14 @@ Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea beh
     $ cd ~/gravroot
     $ bin/gpm install haywire
     $ cd /user/themes/haywire
-    $ npm install
-    $ npm run dev
+    $ yarn
 
 ### Manual installation
         
     $ cd ~/gravroot/user/themes
     $ git clone https://github.com/robbinfellow/haywire-grav.git haywire
     $ cd haywire
-    $ npm install
-    $ npm run dev
+    $ yarn
 
 ### Demo
 
@@ -43,11 +40,11 @@ However if you install the theme manually you can copy the contents of `_demo/pa
 
 ### Laravel Mix
 
-Compile assets => `npm run dev`
+Compile assets => `yarn run dev`
 
-Watch scss/js => `npm run watch`
+Watch scss/js => `yarn run watch`
 
-Minify assets => `npm run production`
+Minify assets => `yarn run production`
 
 > Compiled assets goes into the `/dist` directory, these files are generated for you through Laravel Mix, you should **not** edit these files manually!
 
