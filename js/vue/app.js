@@ -1,3 +1,4 @@
+import "babel-polyfill";
 require('./bootstrap');
 
 Vue.component('example', require('./components/Example.vue'));

@@ -11,10 +11,9 @@ const { mix } = require('laravel-mix');
  |
  */
 
-mix.js([
-    'node_modules/jquery/dist/jquery.js',
-    'node_modules/bootstrap-sass/assets/javascripts/bootstrap.js'
-	], 'dist/js/vendor.js') 
-   .js('js/_main.js', 'dist/js/main.js')
-   .js('js/vue/app.js', 'dist/js/vue.js')
-   .sass('scss/main.scss', 'dist/css/main.css');
+mix.setPublicPath('dist')
+   .js('js/vue/app.js', 'js/app.js')
+   .sass('scss/app.scss', 'css/app.css')
+   .options({
+      processCssUrls: false
+    });

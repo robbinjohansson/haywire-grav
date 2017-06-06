@@ -1,0 +1,19 @@
+// BOOTSTRAP COMPONENTS
+
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+//-------------------------------------------
+
+// TEMPLATE COMPONENTS
+
+// Global helper classes
+@import "template/global";
+
+// Header
+@import "template/header";
+
+// Footer
+@import "template/footer";
+
+// Custom style
+@import "template/custom";

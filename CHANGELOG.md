@@ -1,3 +1,16 @@
+# v0.2.3
+## 06/06/2017
+
+1. [](#new)
+    * Add babel polyfill for IE support (Vue)
+    * npm > yarn
+2. [](#improved)
+    * Update dependencies
+    * Remove vendor.js
+    * Remove main.js
+    * Bundle all scripts to app.js
+    * Renamed main.css/js to app.css/js
+
 # v0.2.2
 ## 04/06/2017
 

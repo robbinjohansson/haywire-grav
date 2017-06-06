@@ -6,13 +6,11 @@
 <link rel="canonical" href="{{ page.url(true, true) }}" />
 
 {% block stylesheets %}
-    {% do assets.addCss('theme://dist/css/main.css', 10) %}
+    {% do assets.addCss('theme://dist/css/app.css', 10) %}
 {% endblock %}
 {{ assets.css() }}
 
 {% block javascripts %}
-    {% do assets.addJs('theme://dist/js/vendor.js', 100) %}
-    {% do assets.addJs('theme://dist/js/main.js', 10) %}
-    {% do assets.addJs('theme://dist/js/vue.js', {group: 'bottom'}) %}
+    {% do assets.addJs('theme://dist/js/app.js', {group: 'bottom'}) %}
 {% endblock %}
 {{ assets.js() }}

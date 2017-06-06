@@ -29,8 +29,6 @@
             }
         },
 
-        // props: ['content'],
-
         methods: {
             myExample(){
                this.myVar = true; 

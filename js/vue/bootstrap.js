@@ -5,7 +5,16 @@ window._ = require('lodash');
  * for JavaScript based Bootstrap features such as modals and tabs. This
  * code may be modified to fit the specific needs of your application.
  */
-//window.$ = window.jQuery = require('jquery');
+window.$ = window.jQuery = require('jquery');
+
+window.Tether = require('tether');
+require('bootstrap-sass/assets/javascripts/bootstrap.js');
+
+
+/**
+* For easier ajax development
+*/
+window.axios = require('axios');
 
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces
@@ -13,4 +22,3 @@ window._ = require('lodash');
  * and simple, leaving you to focus on building your next great project.
  */
 window.Vue = require('vue');
-require('vue-resource');
