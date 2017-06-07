@@ -1,8 +1,4 @@
 {
-  "/dist/js/vue.js": "/dist/js/vue.js",
-  "/dist/js/vendor.js": "/dist/js/vendor.js",
-  "/dist/css/main.css": "/dist/css/main.css",
-  "/dist/js/main.js": "/dist/js/main.js",
   "/js/app.js": "/js/app.js",
   "/css/app.css": "/css/app.css"
 }
