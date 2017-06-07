@@ -1,3 +1,9 @@
+# v0.2.4
+## 06/07/2017
+
+1. [](#improved)
+    * Update `_demo` pages [PR #6](https://github.com/robbinfellow/haywire-grav/pull/6)
+
 # v0.2.3
 ## 06/06/2017
 
