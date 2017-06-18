@@ -1,19 +1,13 @@
-// BOOTSTRAP COMPONENTS
+@import "variables";
 
+// Import npm dependencies
 @import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
-//-------------------------------------------
-
-// TEMPLATE COMPONENTS
-
 // Global helper classes
-@import "template/global";
+@import "common/global";
+@import "common/utilities";
 
 // Header
-@import "template/header";
-
-// Footer
-@import "template/footer";
-
-// Custom style
-@import "template/custom";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/posts";

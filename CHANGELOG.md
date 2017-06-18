@@ -1,3 +1,9 @@
+# v0.2.5
+## 06/18/2017
+
+1. [](#improved)
+    * Improve sass structure
+
 # v0.2.4
 ## 06/07/2017
 
