@@ -58,15 +58,7 @@ The easiest way to update this theme is via the Grav Package Manager:
 
 ## Contribute
 
-Contributions are welcome from everyone.
-
-### Bug reports
-
-Create an [issue](https://github.com/robbinfellow/haywire-grav/issues) with detailed information regarding the problem.
-
-### Feature requests
-
-Feature requests are more than welcome! Create an [issue](https://github.com/robbinfellow/haywire-grav/issues) or make a [pull request](https://github.com/robbinfellow/haywire-grav/pulls) to `develop` branch with detailed information/description of your request.
+Contributions are welcome from everyone, see [contributions.](https://github.com/robbinfellow/haywire-grav/blob/master/CONTRIBUTING.md)
 
 ## Donations
 
