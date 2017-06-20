@@ -1,3 +1,12 @@
+# TBA
+## TBA
+
+1. [](#new)
+    * Add bootstrap navbar
+2. [](#improved)
+    * Update dependencies
+    * Add versioning to assets
+
 # v0.2.5
 ## 06/18/2017
 
