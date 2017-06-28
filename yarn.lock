@@ -3205,9 +3205,9 @@ kind-of@^3.0.2, kind-of@^3.2.2:
   dependencies:
     is-buffer "^1.1.5"
 
-laravel-mix@1.0.*:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-1.0.3.tgz#eada809355574c2ae0c440e2849659b6e1fd5ce1"
+laravel-mix@^1.0:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-1.0.7.tgz#f9636bf6025118f365bfa0f5f1ae49f41df0aa6a"
   dependencies:
     autoprefixer "^7.1.1"
     babel-core "^6.24.1"
@@ -5816,7 +5816,7 @@ vue-template-es2015-compiler@^1.2.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.5.2.tgz#a0a6c50c941d2a4abda963f2f42c337ac450ee95"
 
-vue@2.3.*:
+vue@^2.1.10:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.3.4.tgz#5ec3b87a191da8090bbef56b7cfabd4158038171"
 
