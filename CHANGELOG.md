@@ -1,11 +1,10 @@
-# TBA
-## TBA
+# v0.2.6
+## 07/29/2017
 
 1. [](#new)
-    * Add bootstrap navbar
+    * Remove demo site
 2. [](#improved)
     * Update dependencies
-    * Add versioning to assets
 
 # v0.2.5
 ## 06/18/2017

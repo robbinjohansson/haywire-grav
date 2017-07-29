@@ -6,8 +6,6 @@ Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea beh
 
 **_It is recommended that you install the [admin-plugin package](https://github.com/getgrav/grav-plugin-admin) when using this theme._**
 
-[Live demo](http://grav.haywire.me/)
-
 > This theme is under active development, use `master` branch for the latest version.
 
 ## Features
@@ -40,11 +38,12 @@ However if you install the theme manually you can copy the contents of `_demo/pa
 
 ### Laravel Mix
 
-Compile assets => `yarn run dev`
-
-Watch scss/js => `yarn run watch`
-
-Minify assets => `yarn run production`
+	# Compile assets without minification
+	yarn run dev
+	# Watch working assets
+	yarn run watch
+	# Minify and compile assets for production
+	yarn run production
 
 > Compiled assets goes into the `/dist` directory, these files are generated for you through Laravel Mix, you should **not** edit these files manually!
 
