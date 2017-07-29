@@ -45,6 +45,15 @@ However if you install the theme manually you can copy the contents of `_demo/pa
 	# Minify and compile assets for production
 	yarn run production
 
+```shell
+# Compile assets without minification
+$ yarn run dev
+# Watch working assets
+$ yarn run watch
+# Minify and compile assets for production
+$ yarn run production
+```
+
 > Compiled assets goes into the `/dist` directory, these files are generated for you through Laravel Mix, you should **not** edit these files manually!
 
 ## Updating
