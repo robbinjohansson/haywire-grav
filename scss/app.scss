@@ -1,13 +1,14 @@
+
 @import "variables";
 
 // Import npm dependencies
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
-// Global helper classes
+// Common
 @import "common/global";
 @import "common/utilities";
 
-// Header
+// Partials
 @import "partials/header";
 @import "partials/footer";
 @import "partials/posts";

@@ -12,7 +12,7 @@ const { mix } = require('laravel-mix');
  */
 
 mix.setPublicPath('dist')
-   .js('js/vue/app.js', 'js/app.js')
+   .js('js/app.js', 'js/app.js')
    .sass('scss/app.scss', 'css/app.css')
    .options({
       processCssUrls: false
