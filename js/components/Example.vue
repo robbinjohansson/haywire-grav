@@ -31,7 +31,7 @@
 
         methods: {
             myExample(){
-               this.myVar = true; 
+               this.myVar = true;
             }
         }
     }
