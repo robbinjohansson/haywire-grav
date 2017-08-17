@@ -1,26 +1,26 @@
 <nav class="navbar navbar-default">
-	<div class="container-fluid">
+    <div class="container-fluid">
 
-		<div class="navbar-header">
+        <div class="navbar-header">
 
-			{# Hamburger #}
-			<button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#toggle-navbar" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
+            {# Hamburger #}
+            <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#toggle-navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
 
-			{# Logo #}
-			<a href="{{ base_url == '' ? '/' : base_url }}" class="navbar-brand">{{ config.site.title }}</a>
-		</div>
-		
-		{# Navbar #}
-		<div class="collapse navbar-collapse navbar-right" id="toggle-navbar">
-			{% block header_navigation %}
-	        	{% include 'partials/navigation.html.twig' %}
-	        {% endblock %}
-		</div> 
+            {# Logo #}
+            <a href="{{ base_url == '' ? '/' : base_url }}" class="navbar-brand">{{ config.site.title }}</a>
+        </div>
 
-	</div> 
+        {# Navbar #}
+        <div class="collapse navbar-collapse navbar-right" id="toggle-navbar">
+            {% block header_navigation %}
+                {% include 'partials/navigation.html.twig' %}
+            {% endblock %}
+        </div>
+
+    </div>
 </nav>
