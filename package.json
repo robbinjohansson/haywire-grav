@@ -12,13 +12,13 @@
   },
   "devDependencies": {
     "axios": "^0.15.3",
-    "babel-polyfill": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
     "bootstrap-sass": "^3.3.7",
-    "tether": "^1.4.0",
     "cross-env": "^3.2.3",
     "jquery": "^3.1.1",
-    "laravel-mix": "^1.0",
+    "laravel-mix": "^1.4",
     "lodash": "^4.17.4",
-    "vue": "^2.1.10"
+    "tether": "^1.4.0",
+    "vue": "^2.4.0"
   }
 }
