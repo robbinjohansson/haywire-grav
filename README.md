@@ -6,7 +6,7 @@ Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea beh
 
 **_It is recommended that you install the [admin-plugin package](https://github.com/getgrav/grav-plugin-admin) when using this theme._**
 
-> This theme is under active development, use `master` branch for the latest version.
+> This theme is under active development, use `master` branch for the latest stable version.
 
 ## Features
 
@@ -17,28 +17,32 @@ Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea beh
 ## Installation / Usage
 
 ### (Recommended) bin/gpm ([Grav Package Manager](http://learn.getgrav.org/advanced/grav-gpm))
-        
-    $ cd ~/gravroot
-    $ bin/gpm install haywire
-    $ cd /user/themes/haywire
-    $ yarn
+
+``` bash
+# @ path/to/grav/installation
+$ bin/gpm install haywire
+$ cd /user/themes/haywire
+$ yarn
+```
 
 ### Manual installation
-        
-    $ cd ~/gravroot/user/themes
-    $ git clone https://github.com/robbinfellow/haywire-grav.git haywire
-    $ cd haywire
-    $ yarn
+
+``` bash
+# @ path/to/grav/installation
+$ git clone https://github.com/robbinfellow/haywire-grav.git
+$ cd haywire-grav
+$ yarn
+```
 
 ### Demo
 
-Installing through bin/gpm will prompt you to install the demo content automatically. 
+Installing through bin/gpm will prompt you to install the demo content automatically.
 
 However if you install the theme manually you can copy the contents of `_demo/pages/` into your `user/pages/` folder for a quick demo content of your site.
 
 ### Laravel Mix
 
-```shell
+``` bash
 # Compile assets without minification
 $ yarn run dev
 # Watch working assets
@@ -55,11 +59,13 @@ $ yarn run production
 
 The easiest way to update this theme is via the Grav Package Manager:
 
-    bin/gpm update haywire
+``` bash
+$ bin/gpm update haywire
+```
 
 ## Contribute
 
-Contributions are welcome from everyone, see [contributions.](https://github.com/robbinfellow/haywire-grav/blob/master/CONTRIBUTING.md)
+Contributions are welcome from everyone, see [contributions.](.github/CONTRIBUTING.md)
 
 ## Donations
 
