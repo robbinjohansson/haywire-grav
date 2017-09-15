@@ -14,13 +14,7 @@ try {
 
 
 /**
-* For easier ajax development
-*/
-window.axios = require('axios');
-
-/**
- * Vue is a modern JavaScript library for building interactive web interfaces
- * using reactive data binding and reusable components. Vue's API is clean
- * and simple, leaving you to focus on building your next great project.
+ * Load the axios HTTP library.
  */
-window.Vue = require('vue');
+
+window.axios = require('axios');
