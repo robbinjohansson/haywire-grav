@@ -1,3 +1,11 @@
+# v0.2.7
+## 09/23/2017
+
+1. [](#improved)
+    * Up dependencies
+    * Improve file structure
+    * Improve theme base
+
 # v0.2.6
 ## 07/29/2017
 

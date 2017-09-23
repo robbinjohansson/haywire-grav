@@ -1,10 +1,10 @@
 name: Haywire
-version: 0.2.6
+version: 0.2.7
 description: Starter theme/boilerplate for developers to get up and running quickly on new Grav projects using modern frameworks and tools such as laravel-mix, vuejs & bootstrap-sass.
 icon: empire
 author:
   name: Robbin Johansson
-  email: robbinfellow@gmail.com
+  email: robbin@haywire.me
   url: https://haywire.me
 homepage: https://github.com/robbinfellow/haywire-grav
 keywords: haywire, boilerplate, starter-theme, vuejs, laravel-mix, bootstrap-sass
