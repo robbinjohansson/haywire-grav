@@ -3,7 +3,7 @@
 - [ ] This is a feature request
 - [ ] This is a bug report
 - [ ] This is a help-wanted
-- [ ] This request isn't a duplicate of an [existing issue](https://github.com/robbinfellow/kaliber/issues)
+- [ ] This request isn't a duplicate of an [existing issue](https://github.com/robbinfellow/haywire-grav/issues)
 
 ***
 
