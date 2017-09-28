@@ -2,7 +2,7 @@
 
 # Boilerplate/theme for getgrav CMS
 
-Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new grav projects using modern frameworks and tools such as [Laravel Mix](https://laravel.com/docs/5.4/mix), [Vuejs](http://vuejs.org/), [Bootstrap-sass](https://github.com/twbs/bootstrap-sass).
+Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new grav projects using modern frameworks and tools such as [Laravel Mix](https://github.com/JeffreyWay/laravel-mix#readme), [Vuejs](http://vuejs.org/), [Bootstrap-sass](https://github.com/twbs/bootstrap-sass).
 
 **_It is recommended that you install the [admin-plugin package](https://github.com/getgrav/grav-plugin-admin) when using this theme._**
 
@@ -21,24 +21,33 @@ Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea beh
 ``` bash
 # @ path/to/grav/installation
 $ bin/gpm install haywire
-$ cd /user/themes/haywire
-$ yarn
+$ cd user/themes/haywire
+$ yarn && yarn run production
 ```
 
 ### Manual installation
 
 ``` bash
 # @ path/to/grav/installation
-$ git clone https://github.com/robbinfellow/haywire-grav.git
-$ cd haywire-grav
-$ yarn
+$ cd user/themes/
+$ git clone https://github.com/robbinfellow/haywire-grav.git haywire
+$ cd haywire
+$ yarn && yarn run production
+```
+
+### Activate theme
+
+After installation navigate to `user/config/system.yaml` and update the theme:
+``` yaml
+pages:
+  theme: haywire
 ```
 
 ### Demo
 
 Installing through bin/gpm will prompt you to install the demo content automatically.
 
-However if you install the theme manually you can copy the contents of `_demo/pages/` into your `user/pages/` folder for a quick demo content of your site.
+However if you install the theme manually you can copy the contents of `user/themes/haywire/_demo/pages/` into your `user/pages/` folder for a quick demo content of your site.
 
 ### Laravel Mix
 
