@@ -4,9 +4,9 @@ description: Starter theme/boilerplate for developers to get up and running quic
 icon: empire
 author:
   name: Robbin Johansson
-  email: robbin@haywire.me
-  url: https://haywire.me
-homepage: https://github.com/robbinfellow/haywire-grav
+  email: robbinfellow@gmail.com
+  url: https://github.com/robbinfellow/
+homepage: https://github.com/robbinfellow/haywire-grav#readme
 keywords: haywire, boilerplate, starter-theme, vuejs, laravel-mix, bootstrap-sass
 bugs: https://github.com/robbinfellow/haywire-grav/issues
 docs: https://github.com/robbinfellow/haywire-grav/blob/master/README.md
