@@ -11,19 +11,13 @@
 {# Wrapping our content in #app to allow vue components #}
 <div id="app">
 
-    {% block header %}
-        {% include 'partials/header.html.twig' %}
-    {% endblock %}
+    {% include 'partials/navbar.html.twig' %}
+    
+    <section class="section">
+        {% block content %}{% endblock %}
+    </section>
 
-    <div class="container">
-
-        <div class="col-sm-8 col-sm-offset-2">
-
-            {% block content %}{% endblock %}
-
-        </div>
-
-    </div>
+    {% include 'partials/footer.html.twig' %}
 
 </div>
 

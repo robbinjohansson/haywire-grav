@@ -1,8 +1,8 @@
 [![GitHub release](https://img.shields.io/github/release/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/releases) [![](https://img.shields.io/github/issues-raw/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/issues) [![license](https://img.shields.io/github/license/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/blob/master/LICENSE)
 
-# Boilerplate/theme for getgrav CMS
+# Boilerplate/theme for Grav CMS
 
-Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new grav projects using modern frameworks and tools such as [Laravel Mix](https://github.com/JeffreyWay/laravel-mix#readme), [Vuejs](http://vuejs.org/), [Bootstrap-sass](https://github.com/twbs/bootstrap-sass).
+Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new grav projects using modern frameworks and tools such as [Laravel Mix](https://github.com/JeffreyWay/laravel-mix#readme), [Vuejs](http://vuejs.org/), [Bulma](https://github.com/jgthms/bulma).
 
 **_It is recommended that you install the [admin-plugin package](https://github.com/getgrav/grav-plugin-admin) when using this theme._**
 
@@ -11,7 +11,7 @@ Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea beh
 ## Features
 
 * Laravel Mix
-* Bootstrap-sass
+* Bulma
 * Vuejs
 
 ## Installation / Usage

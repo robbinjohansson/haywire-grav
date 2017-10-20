@@ -1,3 +1,15 @@
+# v0.3.0
+## 10/20/2017
+
+1. [](#new)
+    * Replace Bootstrap with Bulma
+    * Replace `scss` syntax with `sass`
+2. [](#improved)
+    * Add responsive navbar toggle using Vue
+    * Repo improvements, add issue template
+    * Remove jquery
+    * Add additional templates
+
 # v0.2.7
 ## 09/23/2017
 

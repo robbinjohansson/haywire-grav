@@ -1,0 +1,23 @@
+<navbar inline-template>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="container is-fluid">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="{{ base_url == '' ? '/' : base_url }}">
+                    <img src="https://bulma.io/images/bulma-logo.png" alt="{{ config.site.title }}" width="112" height="28">
+                </a>
+
+                <button class="button navbar-burger" :class="{'is-active': navIsActive}" @click.prevent="toggleNav">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <div class="navbar-menu" :class="{'is-active': navIsActive}">
+                {% block header_navigation %}
+                    {% include 'partials/navigation.html.twig' %}
+                {% endblock %}
+            </div>
+        </div>
+    </nav>
+</navbar>

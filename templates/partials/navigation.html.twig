@@ -1,37 +1,34 @@
 {% macro loop(page) %}
     {% for p in page.children.visible %}
-        {% set current_page = (p.active or p.activeChild) ? 'active' : '' %}
+        {% set current_page = (p.active or p.activeChild) ? 'is-active' : '' %}
         {% if p.children.visible.count > 0 %}
-            <li class="has-children {{ p.slug }} {{ current_page }}">
-                <a {% if p.template == 'external' %} target="_BLANK" {% endif %} href="{{ p.url }}">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a href="{{ p.url }}" class="navbar-link {{ p.slug }} {{ current_page }}" {% if p.template == 'external' %} target="_BLANK" rel="noopener" {% endif %}>
                     {{ p.menu }}
                 </a>
-                <ul class="dropdown">
+
+                <div class="navbar-dropdown">
                     {{ _self.loop(p) }}
-                </ul>
-            </li>
+                </div>
+            </div>
         {% else %}
-            <li class="{{ p.slug }} {{ current_page }}">
-                <a {% if p.template == 'external' %} target="_BLANK" {% endif %} href="{{ p.url }}">
-                    {{ p.menu }}
-                </a>
-            </li>
+            <a href="{{ p.url }}" class="navbar-item {{ p.slug }} {{ current_page }}" {% if p.template == 'external' %} target="_BLANK" rel="noopener" {% endif %}>
+                {{ p.menu }}
+            </a>
         {% endif %}
     {% endfor %}
 {% endmacro %}
 
-<ul class="nav navbar-nav">
+<div class="navbar-end">
     {% if theme_config.dropdown.enabled %}
         {{ _self.loop(pages) }}
     {% else %}
         {% for page in pages.children.visible %}
-            {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
-            <li class="{{ page.slug }} {{ current_page }}">
-                <a href="{{ page.url }}">
-                    {{ page.menu }}
-                </a>
-            </li>
+            {% set current_page = (page.active or page.activeChild) ? 'is-active' : '' %}
+            <a href="{{ page.url }}" class="navbar-item {{ p.slug }} {{ current_page }}" {% if p.template == 'external' %} target="_BLANK" rel="noopener" {% endif %}>
+                {{ page.menu }}
+            </a>
         {% endfor %}
     {% endif %}
-</ul>
+</div>
 

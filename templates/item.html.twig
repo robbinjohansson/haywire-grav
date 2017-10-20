@@ -1,22 +1,26 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-    <div class="row">
-        <div class="col-xs-12">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1>{{ page.title }}</h1>
-                    {{ page.content }}
-                    {% if page.header.featured_image %}
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <img class="img-responsive" src="{{ page.url }}/{{ page.header.featured_image }}">
-                            </div>
-                        </div>
-                    {% endif %}
+
+    <div class="columns">
+        <div class="column is-8 is-offset-2">
+
+            <div class="columns is-multiline post">
+                <div class="column is-2 is-4-mobile">
+                    <img class="image is-rounded" src="{{ page.url }}/{{ page.header.featured_image }}">
+                </div>
+
+                <div class="column is-12">
+                    <h1 class="title">
+                        {{ page.title }}
+                    </h1>
+                    <div class="content">
+                        {{ page.content }}
+                        <small class="is-size-7">Published {{ page.header.publish_date }}</small>
+                    </div>
                 </div>
             </div>
-
         </div>
     </div>
+
 {% endblock %}
