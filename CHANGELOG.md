@@ -1,3 +1,10 @@
+# v0.3.1
+## TBA
+
+1. [](#improved)
+    * Add markup to `error.html.twig`
+    * Up dependencies
+
 # v0.3.0
 ## 10/20/2017
 
