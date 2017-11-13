@@ -1,5 +1,5 @@
 # v0.3.1
-## TBA
+## 11/13/2017
 
 1. [](#improved)
     * Add markup to `error.html.twig`
