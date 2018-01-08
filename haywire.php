@@ -8,10 +8,23 @@ class Haywire extends Theme
     public static function getSubscribedEvents()
     {
         return [
-            'onAssetsInitialized' => ['onAssetsInitialized', 0]
+            'onThemeInitialized' => ['onThemeInitialized', 0]
         ];
     }
-    public function onAssetsInitialized()
+
+    public function onThemeInitialized()
+    {
+        if ($this->isAdmin()) {
+            $this->active = false;
+            return;
+        }
+
+        $this->enable([
+            'onTwigSiteVariables' => ['onTwigSiteVariables', 0]
+        ]);
+    }
+
+    public function onTwigSiteVariables()
     {
         $path = $this->grav['base_url'] . $this->config['theme']['assetPath'];
         $manifest = __DIR__ . '/dist/mix-manifest.json';
