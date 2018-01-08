@@ -4,8 +4,6 @@
 
 Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new grav projects using modern frameworks and tools such as [Laravel Mix](https://github.com/JeffreyWay/laravel-mix#readme), [Vuejs](http://vuejs.org/), [Bulma](https://github.com/jgthms/bulma).
 
-**_It is recommended that you install the [admin-plugin package](https://github.com/getgrav/grav-plugin-admin) when using this theme._**
-
 > This theme is under active development, use `master` branch for the latest stable version.
 
 ## Features

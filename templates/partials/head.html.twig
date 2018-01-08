@@ -4,13 +4,4 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
 <link rel="canonical" href="{{ page.url(true, true) }}" />
-
-{% block stylesheets %}
-    {% do assets.addCss('theme://dist/css/app.css', 10) %}
-{% endblock %}
 {{ assets.css() }}
-
-{% block javascripts %}
-    {% do assets.addJs('theme://dist/js/app.js', {group: 'bottom'}) %}
-{% endblock %}
-{{ assets.js() }}

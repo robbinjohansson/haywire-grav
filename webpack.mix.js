@@ -16,4 +16,5 @@ mix.setPublicPath('dist')
    .sass('sass/app.sass', 'css/app.css')
    .options({
       processCssUrls: false
-    });
+    })
+   .version();
