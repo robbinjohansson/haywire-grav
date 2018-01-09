@@ -1,38 +1,41 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-    <div class="container">
-        <div class="columns">
-            <div class="column is-8 is-offset-2">
-                
-                <div class="columns">
-                    <div class="column content">
-                        {{ page.content }}
+<div class="container">
+    <div class="columns">
+        <div class="column is-8 is-offset-2">
+
+            <div class="content">
+                {{ page.content }}
+            </div>
+
+            <hr>
+
+            {% for post in page.find('/blog').children.order('date', 'desc').slice(0, 3) %}
+            <div class="box">
+                <article class="media">
+                    <div class="media-left">
+                        <figure class="image is-96x96">
+                            <img src="{{ post.url }}/{{ post.header.featured_image }}" alt="Image">
+                        </figure>
                     </div>
-                </div>
-
-                <hr>
-
-                <div class="columns is-multiline">
-                    {% for post in page.find('/blog').children.order('date', 'desc').slice(0, 3) %}
-                    <div class="column is-12">
-                        <strong class="title is-5">
-                            <a href="{{ base_url }}{{ post.route }}">
-                                {{ post.title }}
-                            </a>
-                        </strong>
-                        <div class="summary">
+                    <div class="media-content">
+                        <div class="content">
+                            <strong class="title is-size-5">
+                                <a href="{{ base_url }}{{ post.route }}">
+                                    {{ post.title }}
+                                </a>
+                            </strong>
                             {% if post.summary %}
-                                {{ post.summary(320) }}
-                            {% else %}
-                                <em>This post has no summary!</em>
+                                {{ post.summary(180) }}
                             {% endif %}
                         </div>
                     </div>
-                    {% endfor %}
-                </div>
-
+                </article>
             </div>
+            {% endfor %}
+
         </div>
     </div>
+</div>
 {% endblock %}

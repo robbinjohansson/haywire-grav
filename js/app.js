@@ -1,15 +1,9 @@
-/**
-* Include polyfill for vue (IE)
-*/
 
+// Include polyfill for vue (IE)
 import "babel-polyfill";
 
-/**
- * Load all of this project's JavaScript dependencies including Vue
- */
-
+// Load all of this project's JavaScript dependencies including Vue
 require('./bootstrap');
-
 window.Vue = require('vue');
 
 /**

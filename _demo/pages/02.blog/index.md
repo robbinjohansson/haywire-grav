@@ -1,5 +1,6 @@
 ---
 title: Blog
+visible: true
 template: blog
 ---
 

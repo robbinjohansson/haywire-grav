@@ -8,22 +8,17 @@
 </head>
 <body class="{{ page.header.body_classes }}">
 
-{# Wrapping our content in #app to allow vue components #}
+{# Wrap content in #app to allow vue components #}
 <div id="app">
-
     {% include 'partials/navbar.html.twig' %}
-
     <section class="section">
         {% block content %}{% endblock %}
     </section>
-
     {% include 'partials/footer.html.twig' %}
-
 </div>
 
 {% block bottom %}
     {{ assets.js('bottom') }}
 {% endblock %}
-
 </body>
 </html>

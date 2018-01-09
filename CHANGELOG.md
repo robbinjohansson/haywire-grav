@@ -1,3 +1,11 @@
+# v0.3.2
+## 01/09/2018
+
+1. [](#new)
+    * Add asset cache busting
+2. [](#improved)
+    * Improve template markup
+
 # v0.3.1
 ## 11/13/2017
 
