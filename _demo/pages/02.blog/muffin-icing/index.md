@@ -1,5 +1,5 @@
 ---
-title: 'Getgrav is pretty cool'
+title: 'Muffin icing'
 featured_image: sample_01.jpg
 published: true
 publish_date: '05-03-2017 21:31'

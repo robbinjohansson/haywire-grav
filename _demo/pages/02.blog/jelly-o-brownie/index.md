@@ -1,5 +1,5 @@
 ---
-title: 'Sun is shining'
+title: 'Jelly-o brownie'
 featured_image: sample_02.jpg
 published: true
 publish_date: '05-03-2017 21:28'

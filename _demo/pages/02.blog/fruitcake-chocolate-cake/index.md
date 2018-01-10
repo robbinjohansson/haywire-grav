@@ -1,5 +1,5 @@
 ---
-title: 'Today is a good day'
+title: 'Fruitcake chocolate cake'
 featured_image: sample_03.jpg
 published: true
 publish_date: '05-03-2017 21:38'
