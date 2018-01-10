@@ -16,14 +16,12 @@ Create an [issue](https://github.com/robbinfellow/haywire-grav/issues) with deta
 
 - Checkout a topic branch from the relevant branch, e.g. `develop`, and merge back against that branch.
 
-- It's OK to have multiple small commits as you work on the PR - we will let GitHub automatically squash it before merging.
-
 ## Development
 
-``` bash
-$ cd ~/grav/user/themes
-$ git clone https://github.com/robbinfellow/haywire-grav.git
-$ cd haywire-grav
-$ yarn
+```shell
+# @ path/to/grav/installation
+$ cd user/themes/
+$ git clone https://github.com/robbinfellow/haywire-grav.git haywire
+$ cd haywire && yarn
 $ yarn run dev / watch / production
 ```
