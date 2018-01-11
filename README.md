@@ -1,10 +1,8 @@
 [![GitHub release](https://img.shields.io/github/release/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/releases) [![](https://img.shields.io/github/issues-raw/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/issues) [![license](https://img.shields.io/github/license/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/blob/master/LICENSE)
 
-# Boilerplate/theme for Grav CMS
+# Starter theme for Grav CMS
 
-Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea behind the theme is to help developers get started quickly on their new grav projects using modern frameworks and tools such as [Laravel Mix](https://github.com/JeffreyWay/laravel-mix#readme), [Vuejs](http://vuejs.org/), [Bulma](https://github.com/jgthms/bulma).
-
-> This theme is under active development, use `master` branch for the latest stable version.
+A modern starter theme for [Grav CMS](https://github.com/getgrav/grav) using modern frameworks and tools such as [Laravel Mix](https://github.com/JeffreyWay/laravel-mix), [Vuejs](https://github.com/vuejs/vue), [Bulma](https://github.com/jgthms/bulma).
 
 ## Features
 
@@ -16,7 +14,7 @@ Haywire is a modern starter theme for [Grav](https://getgrav.org/). The idea beh
 
 ### (Recommended) bin/gpm ([Grav Package Manager](http://learn.getgrav.org/advanced/grav-gpm))
 
-``` bash
+```shell
 # @ path/to/grav/installation
 $ bin/gpm install haywire
 $ cd user/themes/haywire
@@ -25,13 +23,15 @@ $ yarn && yarn run production
 
 ### Manual installation
 
-``` bash
+```shell
 # @ path/to/grav/installation
 $ cd user/themes/
 $ git clone https://github.com/robbinfellow/haywire-grav.git haywire
 $ cd haywire
 $ yarn && yarn run production
 ```
+
+> This theme is in active development, use `master` branch for the latest stable version.
 
 ### Activate theme
 
@@ -45,11 +45,11 @@ pages:
 
 Installing through bin/gpm will prompt you to install the demo content automatically.
 
-However if you install the theme manually you can copy the contents of `user/themes/haywire/_demo/pages/` into your `user/pages/` folder for a quick demo content of your site.
+However if you install the theme manually, copy the contents of `user/themes/haywire/_demo/pages/` into your `user/pages/` folder for a quick demo content of your site.
 
 ### Laravel Mix
 
-``` bash
+```shell
 # Compile assets without minification
 $ yarn run dev
 # Watch working assets
@@ -66,19 +66,19 @@ $ yarn run production
 
 The easiest way to update this theme is via the Grav Package Manager:
 
-``` bash
+```shell
 $ bin/gpm update haywire
 ```
 
 ## Contribute
 
-Contributions are welcome from everyone, see [contributions.](.github/CONTRIBUTING.md)
+If you're interested in contributing, please read the [contribution guidelines.](https://github.com/robbinfellow/haywire-grav/blob/develop/.github/CONTRIBUTING.md)
 
-## Donations
+## Author
 
-If this project helps you develop your grav-site in a faster, more efficient way, feel free to give me a cup of :coffee: :)
+Created and maintained by Robbin Johansson \<robbinfellow@gmail.com>.
 
-[![paypal.me/robbinfellow](https://www.paypalobjects.com/webstatic/paypalme/images/pp_logo_small.png)](https://www.paypal.me/robbinfellow)
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/robbinfellow)
 
 ## License
 
