@@ -6,11 +6,11 @@
                     {{ config.site.title }}
                 </a>
 
-                <button class="button navbar-burger" :class="{'is-active': navIsActive}" @click.prevent="toggleNav">
+                <div class="navbar-burger" :class="{'is-active': navIsActive}" @click.prevent="toggleNav">
                     <span></span>
                     <span></span>
                     <span></span>
-                </button>
+                </div>
             </div>
 
             <div class="navbar-menu" :class="{'is-active': navIsActive}">
