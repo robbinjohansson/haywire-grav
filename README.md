@@ -58,7 +58,7 @@ $ yarn run watch
 $ yarn run production
 ```
 
-> Compiled assets goes into the `/dist` directory, these files are generated for you through Laravel Mix, you should **not** edit these files manually!
+> Compiled assets goes into the `dist/` directory, these files are generated for you through Laravel Mix, you should **not** edit these files manually! Your working directory is `resources/` which will be picked up by Laravel Mix automatically.
 
 ## Updating
 
@@ -74,9 +74,10 @@ $ bin/gpm update haywire
 
 If you're interested in contributing, please read the [contribution guidelines.](https://github.com/robbinfellow/haywire-grav/blob/develop/.github/CONTRIBUTING.md)
 
-## Author
+## Credits
 
-Created and maintained by Robbin Johansson \<robbinfellow@gmail.com>.
+* [Robbin Johansson](https://github.com/robbinfellow)
+* [All Contributors](https://github.com/robbinfellow/haywire-grav/graphs/contributors)
 
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/robbinfellow)
 
