@@ -12,8 +12,8 @@ let mix = require('laravel-mix');
  */
 
 mix.setPublicPath('dist')
-   .js('js/app.js', 'js/app.js')
-   .sass('sass/app.sass', 'css/app.css')
+   .js('resources/js/app.js', 'js/app.js')
+   .sass('resources/sass/app.sass', 'css/app.css')
    .options({
       processCssUrls: false
     })
