@@ -1,3 +1,14 @@
+# v0.3.3
+## 01/22/2018
+
+1. [](#new)
+    * Add .editorconfig
+2. [](#improved)
+    * Update `_demo/` pages markdown
+    * Update theme screenshots
+    * Bundle working assets to `resources/` folder
+    * Fix to Bulma navbar-burger ([#1580](https://github.com/jgthms/bulma/issues/1580), [#1515](https://github.com/jgthms/bulma/issues/1515))
+
 # v0.3.2
 ## 01/09/2018
 
@@ -144,7 +155,7 @@
 ## 02/14/2017
 
 1. [](#new)
-  	* Added custom blueprints
+    * Added custom blueprints
     * Added custom language settings
     * Added featured image to blog item
 2. [](#improved)
@@ -162,8 +173,8 @@
 ## 02/10/2017
 
 1. [](#new)
-  	* Demo content of pages > `_demo/pages/` - [#1](https://github.com/robbinfellow/haywire-grav/issues/1)
-  	* Added [live demo](http://haywire.me/haywire-grav-demo/) - [#2](https://github.com/robbinfellow/haywire-grav/issues/2)
+    * Demo content of pages > `_demo/pages/` - [#1](https://github.com/robbinfellow/haywire-grav/issues/1)
+    * Added [live demo](http://haywire.me/haywire-grav-demo/) - [#2](https://github.com/robbinfellow/haywire-grav/issues/2)
 2. [](#improved)
     * Updated theme specific details for better overview
     * Updated changelog to correct formats
@@ -172,14 +183,14 @@
 ## 01/31/2017
 
 1. [](#new)
-  	* Display date created on each post at homepage
+    * Display date created on each post at homepage
 2. [](#improved)
     * Remove unused gulp dependencies from `package.json`
-	* Better thumbnail image
-	* More accurate theme description
+    * Better thumbnail image
+    * More accurate theme description
 
 # v0.1.1
 ## 01/31/2017
 
 1. [](#improved)
-  	* Update theme details & clean up
+    * Update theme details & clean up
