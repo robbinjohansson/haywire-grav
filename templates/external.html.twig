@@ -1,0 +1,20 @@
+{#
+# (RuntimeException (400) Template "external.html.twig" is not defined.)
+# https://github.com/robbinfellow/haywire-grav/issues/12
+# Prevent grav from throwing RuntimeException when trying to visit a page using the external template.
+#}
+
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+<div class="container">
+    <div class="notification is-danger">
+        <strong>
+            {{ 'ERROR'|t }}
+        </strong>
+        <p>
+            This page is not available.
+        </p>
+    </div>
+</div>
+{% endblock %}
