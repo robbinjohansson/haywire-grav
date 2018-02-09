@@ -1,3 +1,10 @@
+# v0.3.4
+## 02/09/2018
+
+1. [](#improved)
+    * Prevent RuntimeException on external templates ([#12](https://github.com/robbinfellow/haywire-grav/issues/12), [5354003](https://github.com/robbinfellow/haywire-grav/commit/53540039bf60ae6a4322bd16cec28565b927bcc8))
+    * Improve asset cache busting handler ([#14](https://github.com/robbinfellow/haywire-grav/issues/14), [#15](https://github.com/robbinfellow/haywire-grav/issues/15), [28fce37](https://github.com/robbinfellow/haywire-grav/commit/28fce37a152e6eac772fd47defe5f11c89e281b5))
+
 # v0.3.3
 ## 01/22/2018
 

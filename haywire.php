@@ -27,6 +27,7 @@ class Haywire extends Theme
 
     public function onTwigSiteVariables()
     {
+        // Asset cache busting handler
         $manifest = __DIR__ . '/dist/mix-manifest.json';
 
         if (file_exists($manifest)) {
