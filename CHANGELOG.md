@@ -1,3 +1,9 @@
+# v0.3.5
+## 02/12/2018
+
+1. [](#bugfix)
+    * Add jquery if debugger is enabled ([#16](https://github.com/robbinfellow/haywire-grav/issues/16), [6428f09](https://github.com/robbinfellow/haywire-grav/commit/6428f092123e47af788865f1002cab697222eb90))
+
 # v0.3.4
 ## 02/09/2018
 
