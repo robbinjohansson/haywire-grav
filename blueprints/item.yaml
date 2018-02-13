@@ -1,30 +1,17 @@
 title: Item
-@extends:
-    type: default
-    context: blueprints://pages
+'@extends': default
 
 form:
-  validation: loose
   fields:
-
     tabs:
-      type: tabs
-      active: 1
-
       fields:
         content:
-          type: tab
-          title: PLUGIN_ADMIN.CONTENT
-
           fields:
-
             extras:
               type: section
               title: HAYWIRE.EXTRAS
               underline: true
-
               fields:
-
                 header.featured_image:
                   type: filepicker
                   label: HAYWIRE.FEATURED_IMAGE
@@ -36,35 +23,3 @@ form:
                   acccept:
                     - .png
                     - .jpg
-
-        options:
-          fields:
-
-            publishing:
-
-              fields:
-
-                header.date:
-                  unset@: true
-
-            taxonomies:
-              unset@: true
-
-        advanced:
-          fields:
-
-            overrides:
-
-              fields:
-
-                header.menu:
-                  unset@: true
-
-                header.visible:
-                  unset@: true
-
-                header.template:
-                  unset@: true
-
-                header.append_url_extension:
-                  unset@: true
