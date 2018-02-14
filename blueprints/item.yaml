@@ -17,7 +17,7 @@ form:
                   label: HAYWIRE.FEATURED_IMAGE
                   help: HAYWIRE.FEATURED_IMAGE_HELP
                   placeholder: HAYWIRE.FEATURED_IMAGE_PLACEHOLDER
-                  size: long
+                  folder: 'self@'
                   toggleable: true
                   preview_images: true
                   acccept:
