@@ -1,9 +1,12 @@
 # TBD
 ## TBD
 
-1. [](#improved)
+1. [](#new)
+    * Add favicon
+2. [](#improved)
     * Improve page blueprints
     * Improve theme settings
+    * Update theme screenshot/thumbnail size
 
 # v0.3.5
 ## 02/12/2018
