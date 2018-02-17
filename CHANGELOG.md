@@ -6,6 +6,7 @@
 2. [](#improved)
     * Improve page blueprints
     * Improve theme settings
+    * Improve demo pages
     * Update theme screenshot/thumbnail size
 
 # v0.3.5

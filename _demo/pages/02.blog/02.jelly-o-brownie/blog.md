@@ -1,8 +1,10 @@
 ---
 title: 'Jelly-o brownie'
-featured_image: sample_02.jpg
+media_order: demo_02.jpg
+featured_image: demo_02.jpg
 published: true
 publish_date: '05-03-2017 21:28'
+visible: true
 template: item
 ---
 

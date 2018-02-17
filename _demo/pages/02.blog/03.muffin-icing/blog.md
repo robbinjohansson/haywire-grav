@@ -1,8 +1,10 @@
 ---
 title: 'Muffin icing'
-featured_image: sample_01.jpg
+media_order: demo_03.jpg
+featured_image: demo_03.jpg
 published: true
 publish_date: '05-03-2017 21:31'
+visible: true
 template: item
 ---
 

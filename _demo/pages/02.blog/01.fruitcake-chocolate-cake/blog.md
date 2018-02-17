@@ -1,8 +1,10 @@
 ---
 title: 'Fruitcake chocolate cake'
-featured_image: sample_03.jpg
+media_order: demo_01.jpg
+featured_image: demo_01.jpg
 published: true
 publish_date: '05-03-2017 21:38'
+visible: true
 template: item
 ---
 
