@@ -3,6 +3,7 @@
 
 1. [](#new)
     * Add favicon
+    * Add `.is-right` modifier to navbar-dropdown by default
 2. [](#improved)
     * Improve page blueprints
     * Improve theme settings
