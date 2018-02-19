@@ -1,9 +1,13 @@
 ---
 title: 'Fruitcake chocolate cake'
 media_order: demo_01.jpg
-featured_image: demo_01.jpg
+post_thumbnail: demo_01.jpg
 published: true
-publish_date: '05-03-2017 21:38'
+publish_date: '2018-02-15 13:37'
+taxonomy:
+    tag:
+        - bulma
+        - css
 visible: true
 template: item
 ---

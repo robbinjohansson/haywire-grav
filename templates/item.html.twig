@@ -1,29 +1,32 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-<div class="columns">
-    <div class="column is-8 is-offset-2">
+<div class="container">
+    <div class="columns">
+        <div class="column is-8 is-offset-2">
 
-        <div class="columns is-centered is-multiline">
-            <div class="column is-12">
-                <figure class="image is-128x128 is-rounded" style="margin: 0 auto;">
-                    <img src="{{ page.url }}/{{ page.header.featured_image }}" alt="Image">
-                </figure>
-            </div>
-            <div class="column is-6 has-text-centered">
-                <h1 class="title" style="margin-bottom: 10px;">
+            <div class="content">
+                <h1>
                     {{ page.title }}
                 </h1>
-                <small class="is-size-7">Published {{ page.header.publish_date }}</small>
+                {{ page.content }}
             </div>
-            <div class="column is-10">
-                <hr>
-                <div class="content">
-                    {{ page.content }}
-                </div>
-            </div>
-        </div>
 
+            {% if page.header.taxonomy.tag %}
+                <div class="tags">
+                {% for tag in page.header.taxonomy.tag %}
+                    <span class="tag">
+                        {{ tag }}
+                    </span>
+                {% endfor %}
+                </div>
+            {% endif %}
+
+            <small class="is-italic is-size-7 has-text-grey">
+                Published {{ page.header.publish_date|nicetime() }}
+            </small>
+
+        </div>
     </div>
 </div>
 {% endblock %}

@@ -1,7 +1,7 @@
 <meta charset="utf-8" />
-<title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+<title>{% if header.menu %}{{ header.menu|e('html') }}{% elseif header.title %}{{ header.title|e('html') }}{% endif %} | {{ site.title|e('html') }}</title>
 {% include 'partials/metadata.html.twig' %}
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 <link rel="icon" type="image/png" href="{{ url('theme://images/favicon/favicon.png') }}" />
 <link rel="canonical" href="{{ page.url(true, true) }}" />
 {{ assets.css() }}

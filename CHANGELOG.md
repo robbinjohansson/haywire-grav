@@ -3,12 +3,13 @@
 
 1. [](#new)
     * Add favicon
-    * Add `.is-right` modifier to navbar-dropdown by default
 2. [](#improved)
+    * Improve page templates markup
     * Improve page blueprints
     * Improve theme settings
     * Improve demo pages
-    * Update theme screenshot/thumbnail size
+    * Update theme screenshot/thumbnail
+    * Add `.is-right` modifier to navbar-dropdown by default
 
 # v0.3.5
 ## 02/12/2018

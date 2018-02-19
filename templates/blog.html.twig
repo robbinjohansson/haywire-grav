@@ -6,31 +6,47 @@
         <div class="column is-8 is-offset-2">
 
             <div class="content">
+                <h1>
+                    {{ page.title }}
+                </h1>
                 {{ page.content }}
             </div>
 
-            <hr>
-
-            {% for post in page.find('/blog').children.order('date', 'desc').slice(0, 3) %}
+            {% for post in page.find('/blog').children.order('publish_date', 'desc').slice(0, 3) %}
             <div class="box">
                 <article class="media">
+
+                    {% if post.header.post_thumbnail %}
                     <div class="media-left">
                         <figure class="image is-96x96">
-                            <img src="{{ post.url }}/{{ post.header.featured_image }}" alt="Image">
+                            <img src="{{ post.url }}/{{ post.header.post_thumbnail }}?cropResize=192,192" alt="{{ post.title }}">
                         </figure>
                     </div>
-                    <div class="media-content">
+                    {% endif %}
+
+                    <div class="media-content" style="overflow: initial;">
                         <div class="content">
                             <strong class="title is-size-5">
-                                <a href="{{ base_url }}{{ post.route }}">
+                                <a href="{{ post.url }}">
                                     {{ post.title }}
                                 </a>
                             </strong>
-                            {% if post.summary %}
-                                {{ post.summary(180) }}
-                            {% endif %}
+                            <small>
+                                {{ post.header.publish_date|nicetime() }}
+                            </small>
+                            {{ post.summary(180) }}
                         </div>
+                        {% if post.header.taxonomy.tag %}
+                            <div class="tags">
+                            {% for tag in post.header.taxonomy.tag %}
+                                <span class="tag">
+                                    {{ tag }}
+                                </span>
+                            {% endfor %}
+                            </div>
+                        {% endif %}
                     </div>
+
                 </article>
             </div>
             {% endfor %}

@@ -1,9 +1,13 @@
 ---
 title: 'Jelly-o brownie'
 media_order: demo_02.jpg
-featured_image: demo_02.jpg
+post_thumbnail: demo_02.jpg
 published: true
-publish_date: '05-03-2017 21:28'
+publish_date: '2018-02-08 13:37'
+taxonomy:
+    tag:
+        - laravel-mix
+        - vue
 visible: true
 template: item
 ---

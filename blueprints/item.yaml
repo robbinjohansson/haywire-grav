@@ -7,16 +7,16 @@ form:
       fields:
         content:
           fields:
-            extras:
+            thumbnail:
               type: section
-              title: HAYWIRE.EXTRAS
+              title: HAYWIRE.THUMBNAIL
               underline: true
               fields:
-                header.featured_image:
+                header.post_thumbnail:
                   type: filepicker
-                  label: HAYWIRE.FEATURED_IMAGE
-                  help: HAYWIRE.FEATURED_IMAGE_HELP
-                  placeholder: HAYWIRE.FEATURED_IMAGE_PLACEHOLDER
+                  label: HAYWIRE.THUMBNAIL
+                  help: HAYWIRE.THUMBNAIL_HELP
+                  placeholder: HAYWIRE.THUMBNAIL_PLACEHOLDER
                   folder: 'self@'
                   toggleable: true
                   preview_images: true

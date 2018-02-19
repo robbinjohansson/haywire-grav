@@ -1,9 +1,13 @@
 ---
 title: 'Muffin icing'
 media_order: demo_03.jpg
-featured_image: demo_03.jpg
+post_thumbnail: demo_03.jpg
 published: true
-publish_date: '05-03-2017 21:31'
+publish_date: '2018-02-01 13:37'
+taxonomy:
+    tag:
+        - github
+        - php
 visible: true
 template: item
 ---
