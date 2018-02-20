@@ -10,6 +10,7 @@
     * Improve demo pages
     * Update theme screenshot/thumbnail
     * Add `.is-right` modifier to navbar-dropdown by default
+    * Improve sass
 
 # v0.3.5
 ## 02/12/2018
