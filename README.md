@@ -49,16 +49,20 @@ However if you install the theme manually, copy the contents of `user/themes/hay
 
 ### Laravel Mix
 
+Laravel Mix is preconfigured when installing a fresh instance of this theme. However it might be a good idea to review the full documentation [on GitHub.](https://github.com/JeffreyWay/laravel-mix/tree/master/docs#readme)
+
 ```shell
 # Compile assets without minification
 $ yarn run dev
+
 # Watch working assets
 $ yarn run watch
+
 # Minify and compile assets for production
 $ yarn run production
 ```
 
-> Compiled assets goes into the `dist/` directory, these files are generated for you through Laravel Mix, you should **not** edit these files manually! Your working directory is `resources/` which will be picked up by Laravel Mix automatically.
+> Compiled assets goes into the `dist/` directory, these files are generated for you through Laravel Mix, you should **not** edit these files manually! Your working directory is `resources/`.
 
 ## Updating
 
