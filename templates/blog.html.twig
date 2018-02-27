@@ -2,8 +2,8 @@
 
 {% block content %}
 <div class="container">
-    <div class="columns">
-        <div class="column is-8 is-offset-2">
+    <div class="columns is-centered">
+        <div class="column is-7">
 
             <div class="content">
                 <h1>
@@ -12,43 +12,37 @@
                 {{ page.content }}
             </div>
 
+            <hr>
+
             {% for post in page.find('/blog').children.order('publish_date', 'desc').slice(0, 3) %}
             <div class="box">
-                <article class="media">
+                <a href="{{ post.url }}" style="color: #4a4a4a;">
+                    <article class="media">
 
-                    {% if post.header.post_thumbnail %}
-                    <div class="media-left">
-                        <figure class="image is-96x96">
-                            <img src="{{ post.url }}/{{ post.header.post_thumbnail }}?cropResize=192,192" alt="{{ post.title }}">
-                        </figure>
-                    </div>
-                    {% endif %}
-
-                    <div class="media-content" style="overflow: initial;">
-                        <div class="content">
-                            <strong class="title is-size-5">
-                                <a href="{{ post.url }}">
+                        <div class="media-content" style="overflow: initial;">
+                            <div class="content">
+                                <strong class="title is-size-5">
                                     {{ post.title }}
-                                </a>
-                            </strong>
-                            <small>
-                                {{ post.header.publish_date|nicetime() }}
-                            </small>
-                            {{ post.summary(180) }}
-                        </div>
-                        {% if post.header.taxonomy.tag %}
-                            <div class="tags">
-                            {% for tag in post.header.taxonomy.tag %}
-                                <span class="tag">
-                                    {{ tag }}
-                                </span>
-                            {% endfor %}
+                                </strong>
+                                {{ post.header.intro|truncate(120)|markdown }}
+                                <small>
+                                    {{ post.header.publish_date|nicetime() }}
+                                </small>
                             </div>
-                        {% endif %}
-                    </div>
+                        </div>
 
-                </article>
+                        {% if post.header.featured_image %}
+                        <div class="media-right">
+                            <figure class="image">
+                                <img src="{{ post.url }}/{{ post.header.featured_image }}?cropResize=160,120" alt="{{ post.title }}">
+                            </figure>
+                        </div>
+                        {% endif %}
+
+                    </article>
+                </a>
             </div>
+            <hr>
             {% endfor %}
 
         </div>

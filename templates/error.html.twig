@@ -2,11 +2,17 @@
 
 {% block content %}
 <div class="container">
-    <div class="notification is-danger">
-        <strong>
-            {{ 'ERROR'|t }} {{ page.header.http_response_code }}
-        </strong>
-        {{ page.content }}
+    <div class="columns is-centered">
+        <div class="column is-7">
+
+            <div class="notification is-danger">
+                <strong>
+                    {{ 'ERROR'|t }} {{ page.header.http_response_code }}
+                </strong>
+                {{ page.content }}
+            </div>
+
+        </div>
     </div>
 </div>
 {% endblock %}

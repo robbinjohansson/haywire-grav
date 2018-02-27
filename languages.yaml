@@ -1,5 +1,6 @@
 en:
   HAYWIRE:
-    THUMBNAIL: 'Thumbnail'
-    THUMBNAIL_HELP: 'Set post thumbnail image'
-    THUMBNAIL_PLACEHOLDER: 'Choose from page media'
+    FEATURED_IMAGE: 'Featured image'
+    FEATURED_IMAGE_PLACEHOLDER: 'Choose from page media'
+    INTRO: 'Intro'
+    INTRO_LABEL: 'Intro text'

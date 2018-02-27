@@ -7,19 +7,26 @@ form:
       fields:
         content:
           fields:
-            thumbnail:
+            featured_image:
               type: section
-              title: HAYWIRE.THUMBNAIL
+              title: HAYWIRE.FEATURED_IMAGE
               underline: true
               fields:
-                header.post_thumbnail:
+                header.featured_image:
                   type: filepicker
-                  label: HAYWIRE.THUMBNAIL
-                  help: HAYWIRE.THUMBNAIL_HELP
-                  placeholder: HAYWIRE.THUMBNAIL_PLACEHOLDER
+                  label: HAYWIRE.FEATURED_IMAGE
+                  placeholder: HAYWIRE.FEATURED_IMAGE_PLACEHOLDER
                   folder: 'self@'
                   toggleable: true
                   preview_images: true
                   acccept:
                     - .png
                     - .jpg
+            intro:
+              type: section
+              title: HAYWIRE.INTRO
+              underline: true
+              fields:
+                header.intro:
+                  type: editor
+                  label: HAYWIRE.INTRO_LABEL

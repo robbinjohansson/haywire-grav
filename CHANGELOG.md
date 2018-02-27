@@ -3,15 +3,21 @@
 
 1. [](#new)
     * Add favicon
+    * Add intro to blog items
+    * Add tags to blog items
 2. [](#improved)
     * Remove redundant blueprints
-    * Update theme languages
-    * Improve blog/item blueprints
+    * Update theme languages strings
+    * Improve blog item blueprints
     * Update theme screenshot/thumbnail (now uses correct ratio/sizes)
     * Update demo pages
     * Add `.is-right` modifier to navbar-dropdown by default
-    * Better twig templates markup
     * Remove `_general.sass`
+    * Redesign all page templates
+    * Overall markup improvements
+    * Dates are now printed using `nicetime()`
+    * Reset style of bulma `box` element
+    * Post `thumbnail` > `featured_image`
 
 # v0.3.5
 ## 02/12/2018

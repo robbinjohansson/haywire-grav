@@ -1,7 +1,8 @@
 ---
 title: 'Muffin icing'
 media_order: demo_03.jpg
-post_thumbnail: demo_03.jpg
+featured_image: demo_03.jpg
+intro: 'Candy canes dragée jujubes muffin icing. Chocolate cake dessert macaroon dessert sesame snaps tart danish croissant. Sweet jelly pastry chocolate cake gummi bears marzipan gingerbread jelly. Sweet chupa chups gingerbread bonbon.'
 published: true
 publish_date: '2018-02-01 13:37'
 taxonomy:
