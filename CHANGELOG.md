@@ -1,16 +1,17 @@
-# TBD
+# v0.4.0
 ## TBD
 
 1. [](#new)
     * Add favicon
 2. [](#improved)
-    * Improve page templates markup
-    * Improve page blueprints
-    * Improve theme settings
-    * Improve demo pages
-    * Update theme screenshot/thumbnail
+    * Remove redundant blueprints
+    * Update theme languages
+    * Improve blog/item blueprints
+    * Update theme screenshot/thumbnail (now uses correct ratio/sizes)
+    * Update demo pages
     * Add `.is-right` modifier to navbar-dropdown by default
-    * Improve sass
+    * Better twig templates markup
+    * Remove `_general.sass`
 
 # v0.3.5
 ## 02/12/2018
