@@ -4,6 +4,7 @@ import "babel-polyfill";
 
 // Load all of this project's JavaScript dependencies including Vue
 require('./bootstrap');
+
 window.Vue = require('vue');
 
 /**

@@ -24,7 +24,11 @@
                                 <strong class="title is-size-5">
                                     {{ post.title }}
                                 </strong>
-                                {{ post.header.intro|truncate(120)|markdown }}
+                                {% if post.header.intro %}
+                                    {{ post.header.intro|truncate(120)|markdown }}
+                                {% else %}
+                                    {{ post.summary(120) }}
+                                {% endif %}
                                 <small>
                                     {{ post.header.publish_date|nicetime() }}
                                 </small>
@@ -32,11 +36,11 @@
                         </div>
 
                         {% if post.header.featured_image %}
-                        <div class="media-right">
-                            <figure class="image">
-                                <img src="{{ post.url }}/{{ post.header.featured_image }}?cropResize=160,120" alt="{{ post.title }}">
-                            </figure>
-                        </div>
+                            <div class="media-right">
+                                <figure class="image">
+                                    <img src="{{ post.url }}/{{ post.header.featured_image }}?cropResize=160,120" alt="{{ post.title }}">
+                                </figure>
+                            </div>
                         {% endif %}
 
                     </article>
