@@ -1,3 +1,9 @@
+# v0.4.1
+## TBA
+
+1. [](#new)
+    * Add 2 space indentation to `*.json` files (`.editorconfig`)
+
 # v0.4.0
 ## 03/01/2018
 
