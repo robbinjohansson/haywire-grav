@@ -1,8 +1,9 @@
 # v0.4.1
 ## TBA
 
-1. [](#new)
+1. [](#improved)
     * Add 2 space indentation to `*.json` files (`.editorconfig`)
+    * Add yarn/npm logs to `.gitignore`
 
 # v0.4.0
 ## 03/01/2018
