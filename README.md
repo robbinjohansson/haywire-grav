@@ -83,8 +83,6 @@ If you're interested in contributing, please read the [contribution guidelines.]
 * [Robbin Johansson](https://github.com/robbinfellow)
 * [All Contributors](https://github.com/robbinfellow/haywire-grav/graphs/contributors)
 
-[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/robbinfellow)
-
 ## License
 
 Haywire grav theme is an open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
