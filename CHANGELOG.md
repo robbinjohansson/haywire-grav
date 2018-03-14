@@ -1,7 +1,9 @@
 # v0.4.1
 ## TBA
 
-1. [](#improved)
+1. [](#new)
+    * New `post.html.twig` partial
+2. [](#improved)
     * Add 2 space indentation to `*.json` files (`.editorconfig`)
     * Add yarn/npm logs to `.gitignore`
 
