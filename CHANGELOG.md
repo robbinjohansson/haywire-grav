@@ -6,6 +6,7 @@
 2. [](#improved)
     * Add 2 space indentation to `*.json` files (`.editorconfig`)
     * Add yarn/npm logs to `.gitignore`
+    * Update npm dependencies
 
 # v0.4.0
 ## 03/01/2018
