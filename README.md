@@ -76,7 +76,7 @@ $ bin/gpm update haywire
 
 ## Contribute
 
-If you're interested in contributing, please read the [contribution guidelines.](https://github.com/robbinfellow/haywire-grav/blob/develop/.github/CONTRIBUTING.md)
+If you're interested in contributing, please read the [contribution guidelines.](.github/CONTRIBUTING.md)
 
 ## Credits
 

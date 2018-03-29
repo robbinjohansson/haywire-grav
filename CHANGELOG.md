@@ -1,5 +1,5 @@
 # v0.4.1
-## TBA
+## 03/29/2018
 
 1. [](#new)
     * New `post.html.twig` partial
