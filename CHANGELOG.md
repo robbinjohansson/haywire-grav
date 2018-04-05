@@ -1,3 +1,9 @@
+# v0.4.2
+## TBA
+
+1. [](#bugfix)
+    * Fix indentation in `blueprints.yaml`
+
 # v0.4.1
 ## 03/29/2018
 
