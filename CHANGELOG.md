@@ -3,6 +3,7 @@
 
 1. [](#bugfix)
     * Fix indentation in `blueprints.yaml`
+    * Fix typos in `Navbar.vue`
 
 # v0.4.1
 ## 03/29/2018

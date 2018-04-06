@@ -5,12 +5,12 @@ export default {
     },
     data() {
         return {
-            navIsActive: false
+            navIsActive: false,
         }
     },
     methods: {
-        toggleNav(){
-           !this.navIsActive ? this.navIsActive = true : this.navIsActive = false;
+        toggleNav() {
+            !this.navIsActive ? this.navIsActive = true : this.navIsActive = false;
         }
     }
 }
