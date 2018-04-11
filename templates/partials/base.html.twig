@@ -6,7 +6,7 @@
         {% include 'partials/head.html.twig' %}
     {% endblock %}
 </head>
-<body class="{{ page.header.body_classes }}">
+<body{% if page.header.body_classes %} class="{{ page.header.body_classes }}"{% endif %}>
 
 {# Wrap content in #app to allow vue components #}
 <div id="app">
