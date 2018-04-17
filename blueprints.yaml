@@ -1,6 +1,6 @@
 name: Haywire
 version: 0.4.2
-description: A modern starter theme for Grav CMS using modern frameworks and tools such as Laravel Mix, Vuejs, Bulma.
+description: Starter theme for Grav CMS using modern tools and frameworks such as Laravel Mix, Vuejs, Bulma.
 icon: empire
 author:
   name: Robbin Johansson

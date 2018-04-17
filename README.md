@@ -1,14 +1,18 @@
-[![GitHub release](https://img.shields.io/github/release/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/releases) [![](https://img.shields.io/github/issues-raw/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/issues) [![license](https://img.shields.io/github/license/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/blob/master/LICENSE)
+[![Latest GitHub Release](https://img.shields.io/github/release/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/releases)
+[![Open Issues On Github](https://img.shields.io/github/issues-raw/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/issues)
+[![Software License](https://img.shields.io/github/license/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/blob/master/LICENSE)
+
+> This theme is in active development, use `master` branch for the latest stable version.
 
 # Starter theme for Grav CMS
 
-A modern starter theme for [Grav CMS](https://github.com/getgrav/grav) using modern frameworks and tools such as [Laravel Mix](https://github.com/JeffreyWay/laravel-mix), [Vuejs](https://github.com/vuejs/vue), [Bulma](https://github.com/jgthms/bulma).
+Starter theme for [Grav CMS](https://github.com/getgrav/grav) using modern tools and frameworks such as [Laravel Mix](https://github.com/JeffreyWay/laravel-mix), [Vuejs](https://github.com/vuejs/vue), [Bulma](https://github.com/jgthms/bulma).
 
 ## Features
 
 * Laravel Mix
-* Bulma
 * Vuejs
+* Bulma
 
 ## Installation / Usage
 
@@ -30,8 +34,6 @@ $ git clone https://github.com/robbinfellow/haywire-grav.git haywire
 $ cd haywire
 $ yarn && yarn run production
 ```
-
-> This theme is in active development, use `master` branch for the latest stable version.
 
 ### Activate theme
 
