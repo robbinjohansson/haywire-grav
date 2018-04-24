@@ -23,5 +23,5 @@ Create an [issue](https://github.com/robbinfellow/haywire-grav/issues) with deta
 $ cd user/themes/
 $ git clone https://github.com/robbinfellow/haywire-grav.git haywire
 $ cd haywire && yarn
-$ yarn run dev / watch / production
+$ yarn dev / watch / production
 ```

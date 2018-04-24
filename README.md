@@ -22,7 +22,7 @@ Starter theme for [Grav CMS](https://github.com/getgrav/grav) using modern tools
 # @ path/to/grav/installation
 $ bin/gpm install haywire
 $ cd user/themes/haywire
-$ yarn && yarn run production
+$ yarn && yarn production
 ```
 
 ### Manual installation
@@ -32,7 +32,7 @@ $ yarn && yarn run production
 $ cd user/themes/
 $ git clone https://github.com/robbinfellow/haywire-grav.git haywire
 $ cd haywire
-$ yarn && yarn run production
+$ yarn && yarn production
 ```
 
 ### Activate theme
@@ -55,13 +55,13 @@ Laravel Mix is preconfigured when installing a fresh instance of this theme. How
 
 ```shell
 # Compile assets without minification
-$ yarn run dev
+$ yarn dev
 
 # Watch working assets
-$ yarn run watch
+$ yarn watch
 
 # Minify and compile assets for production
-$ yarn run production
+$ yarn production
 ```
 
 > Compiled assets goes into the `dist/` directory, these files are generated for you through Laravel Mix, you should **not** edit these files manually! Your working directory is `resources/`.
