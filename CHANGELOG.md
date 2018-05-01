@@ -1,7 +1,9 @@
 # v0.4.2
 ## TBA
 
-1. [](#bugfix)
+1. [](#improved)
+    * Upgrade Bulma to `^0.7.1`
+2. [](#bugfix)
     * Fix indentation in `blueprints.yaml`
     * Fix typos in `Navbar.vue`
     * Do not output empty classname(s) to `<body>`
