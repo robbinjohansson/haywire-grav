@@ -1,8 +1,8 @@
 # v0.4.2
-## TBA
+## 05/03/2018
 
 1. [](#improved)
-    * Upgrade Bulma to `^0.7.1`
+    * Upgrade to Bulma `^0.7.1`
 2. [](#bugfix)
     * Fix indentation in `blueprints.yaml`
     * Fix typos in `Navbar.vue`
