@@ -1,8 +1,5 @@
 <script>
 export default {
-    mounted() {
-        //
-    },
     data() {
         return {
             navIsActive: false,

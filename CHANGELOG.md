@@ -1,3 +1,9 @@
+# v0.4.3
+## TBA
+
+1. [](#bugfix)
+    * Remove redundant code from `Navbar.vue`
+
 # v0.4.2
 ## 05/03/2018
 
