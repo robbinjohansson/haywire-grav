@@ -2,15 +2,15 @@
 
 Thank you for taking an interest in Haywire theme for Grav CMS, please follow the instructions below when contributing to the theme.
 
-## Bug/Issue Reporting Guidelines
+## Bug Reporting
 
-Create an [issue](https://github.com/robbinfellow/haywire-grav/issues) with detailed information regarding the bug/issue. Please follow the issue template guidelines provided when creating a new issue.
+Create an issue using the [Bug Report Template.](https://github.com/robbinfellow/haywire-grav/issues/new?template=Bug_Report.md)
 
-## Feature Request Guidelines
+## Feature Request
 
-Create an [issue](https://github.com/robbinfellow/haywire-grav/issues) with detailed information regarding the feature request. Please follow the issue template guidelines provided when creating a new issue.
+Create an issue using the [Feature Request Template.](https://github.com/robbinfellow/haywire-grav/issues/new?template=Feature_Request.md)
 
-## Pull Request Guidelines
+## Pull Request
 
 - The `master` branch is basically just a snapshot of the latest stable release. All development should be done in dedicated branches. **Do not submit PRs against the `master` branch.**
 
