@@ -1,5 +1,5 @@
 ---
-name: Bug Report
+name: :bug: Bug Report
 about: Something not working as expected?
 
 ---
