@@ -1,5 +1,5 @@
 ---
-name: Support
+name: "\U0001F44B Support"
 about: Have a question?
 
 ---
