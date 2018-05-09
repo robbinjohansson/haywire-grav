@@ -1,8 +1,9 @@
 # v0.4.3
 ## TBA
 
-1. [](#bugfix)
+1. [](#improved)
     * Remove redundant code from `Navbar.vue`
+    * Remove empty `bootstrap.js`
 
 # v0.4.2
 ## 05/03/2018
