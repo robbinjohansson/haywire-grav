@@ -18,7 +18,7 @@
 
                 {% if page.header.featured_image %}
                     <figure class="image is-4by3" style="margin-left: 0; margin-right: 0;">
-                        <img src="{{ page.url }}/{{ page.header.featured_image }}?cropResize=768,576" alt="{{ page.title }}">
+                        {{ page.media[page.header.featured_image].cropResize(768, 576).enableProgressive.html('',page.title|escape)}}
                     </figure>
                 {% endif %}
 

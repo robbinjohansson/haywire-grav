@@ -21,7 +21,7 @@
             {% if post.header.featured_image %}
                 <div class="media-right">
                     <figure class="image">
-                        <img src="{{ post.url }}/{{ post.header.featured_image }}?cropResize=160,120" alt="{{ post.title }}">
+                            {{ post.media[post.header.featured_image].cropResize(160, 120).enableProgressive.html('',post.title|escape)}}
                     </figure>
                 </div>
             {% endif %}
