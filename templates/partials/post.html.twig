@@ -21,7 +21,7 @@
             {% if post.header.featured_image %}
                 <div class="media-right">
                     <figure class="image">
-                            {{ post.media[post.header.featured_image].cropZoom(160, 120).html('',post.title|escape)}}
+                        {{ post.media[post.header.featured_image].cropZoom(160, 120).html('',post.title|escape)}}
                     </figure>
                 </div>
             {% endif %}
