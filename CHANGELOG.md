@@ -1,9 +1,11 @@
 # v0.4.3
-## TBA
+## 05/21/2018
 
 1. [](#improved)
     * Remove redundant code from `Navbar.vue`
     * Remove empty `bootstrap.js`
+2. [](#bugfix)
+    * Fix issue with page/post media being used incorrectly. Switch to `cropZoom` instead of `cropResize`. ([#26](https://github.com/robbinfellow/haywire-grav/issues/26), [#27](https://github.com/robbinfellow/haywire-grav/pull/27), [b76ebfc](https://github.com/robbinfellow/haywire-grav/commit/b76ebfcf3a90378d7caf9bcbc002ea9848e54fc1))
 
 # v0.4.2
 ## 05/03/2018
