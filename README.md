@@ -1,6 +1,6 @@
-[![Latest GitHub Release](https://img.shields.io/github/release/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/releases)
-[![Open Issues On Github](https://img.shields.io/github/issues-raw/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/issues)
-[![Software License](https://img.shields.io/github/license/robbinfellow/haywire-grav.svg?style=flat-square)](https://github.com/robbinfellow/haywire-grav/blob/master/LICENSE)
+[![Latest GitHub Release](https://img.shields.io/github/release/robbinworks/haywire-grav.svg?style=flat-square)](https://github.com/robbinworks/haywire-grav/releases)
+[![Open Issues On Github](https://img.shields.io/github/issues-raw/robbinworks/haywire-grav.svg?style=flat-square)](https://github.com/robbinworks/haywire-grav/issues)
+[![Software License](https://img.shields.io/github/license/robbinworks/haywire-grav.svg?style=flat-square)](https://github.com/robbinworks/haywire-grav/blob/master/LICENSE)
 
 > This theme is in active development, use `master` branch for the latest stable version.
 
@@ -30,7 +30,7 @@ $ yarn && yarn production
 ```shell
 # @ path/to/grav/installation
 $ cd user/themes/
-$ git clone https://github.com/robbinfellow/haywire-grav.git haywire
+$ git clone https://github.com/robbinworks/haywire-grav.git haywire
 $ cd haywire
 $ yarn && yarn production
 ```
@@ -82,8 +82,8 @@ If you're interested in contributing, please read the [contribution guidelines.]
 
 ## Credits
 
-* [Robbin Johansson](https://github.com/robbinfellow)
-* [All Contributors](https://github.com/robbinfellow/haywire-grav/graphs/contributors)
+* [Robbin Johansson](https://github.com/robbinworks)
+* [All Contributors](https://github.com/robbinworks/haywire-grav/graphs/contributors)
 
 ## License
 

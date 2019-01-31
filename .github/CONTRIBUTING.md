@@ -4,11 +4,11 @@ Thank you for taking an interest in contributing to `haywire-grav`. All contribu
 
 ## Bug Reporting
 
-Create an issue using the [Bug Report Template.](https://github.com/robbinfellow/haywire-grav/issues/new?template=Bug_Report.md)
+Create an issue using the [Bug Report Template.](https://github.com/robbinworks/haywire-grav/issues/new?template=Bug_Report.md)
 
 ## Feature Request
 
-Create an issue using the [Feature Request Template.](https://github.com/robbinfellow/haywire-grav/issues/new?template=Feature_Request.md)
+Create an issue using the [Feature Request Template.](https://github.com/robbinworks/haywire-grav/issues/new?template=Feature_Request.md)
 
 ## Pull Request
 
@@ -25,7 +25,7 @@ Create an issue using the [Feature Request Template.](https://github.com/robbinf
 ``` shell
 # @ path/to/grav/installation
 $ cd user/themes/
-$ git clone https://github.com/robbinfellow/haywire-grav.git haywire
+$ git clone https://github.com/robbinworks/haywire-grav.git haywire
 $ cd haywire && yarn
 $ yarn dev / watch / production
 ```

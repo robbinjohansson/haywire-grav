@@ -1,3 +1,10 @@
+# v0.4.4
+## 01/31/2019
+
+1. [](#new)
+    * Move repo to [robbinworks/haywire-grav](https://github.com/robbinworks/haywire-grav)
+    * Update references to repo/author
+
 # v0.4.3
 ## 05/21/2018
 
@@ -5,7 +12,7 @@
     * Remove redundant code from `Navbar.vue`
     * Remove empty `bootstrap.js`
 2. [](#bugfix)
-    * Fix issue with page/post media being used incorrectly. Switch to `cropZoom` instead of `cropResize`. ([#26](https://github.com/robbinfellow/haywire-grav/issues/26), [#27](https://github.com/robbinfellow/haywire-grav/pull/27), [b76ebfc](https://github.com/robbinfellow/haywire-grav/commit/b76ebfcf3a90378d7caf9bcbc002ea9848e54fc1))
+    * Fix issue with page/post media being used incorrectly. Switch to `cropZoom` instead of `cropResize`. ([#26](https://github.com/robbinworks/haywire-grav/issues/26), [#27](https://github.com/robbinworks/haywire-grav/pull/27), [b76ebfc](https://github.com/robbinworks/haywire-grav/commit/b76ebfcf3a90378d7caf9bcbc002ea9848e54fc1))
 
 # v0.4.2
 ## 05/03/2018
@@ -52,14 +59,14 @@
 ## 02/12/2018
 
 1. [](#bugfix)
-    * Add jquery if debugger is enabled ([#16](https://github.com/robbinfellow/haywire-grav/issues/16), [6428f09](https://github.com/robbinfellow/haywire-grav/commit/6428f092123e47af788865f1002cab697222eb90))
+    * Add jquery if debugger is enabled ([#16](https://github.com/robbinworks/haywire-grav/issues/16), [6428f09](https://github.com/robbinworks/haywire-grav/commit/6428f092123e47af788865f1002cab697222eb90))
 
 # v0.3.4
 ## 02/09/2018
 
 1. [](#improved)
-    * Prevent RuntimeException on external templates ([#12](https://github.com/robbinfellow/haywire-grav/issues/12), [5354003](https://github.com/robbinfellow/haywire-grav/commit/53540039bf60ae6a4322bd16cec28565b927bcc8))
-    * Improve asset cache busting handler ([#14](https://github.com/robbinfellow/haywire-grav/issues/14), [#15](https://github.com/robbinfellow/haywire-grav/issues/15), [28fce37](https://github.com/robbinfellow/haywire-grav/commit/28fce37a152e6eac772fd47defe5f11c89e281b5))
+    * Prevent RuntimeException on external templates ([#12](https://github.com/robbinworks/haywire-grav/issues/12), [5354003](https://github.com/robbinworks/haywire-grav/commit/53540039bf60ae6a4322bd16cec28565b927bcc8))
+    * Improve asset cache busting handler ([#14](https://github.com/robbinworks/haywire-grav/issues/14), [#15](https://github.com/robbinworks/haywire-grav/issues/15), [28fce37](https://github.com/robbinworks/haywire-grav/commit/28fce37a152e6eac772fd47defe5f11c89e281b5))
 
 # v0.3.3
 ## 01/22/2018
@@ -125,7 +132,7 @@
 ## 06/07/2017
 
 1. [](#improved)
-    * Update `_demo` pages [PR #6](https://github.com/robbinfellow/haywire-grav/pull/6)
+    * Update `_demo` pages [PR #6](https://github.com/robbinworks/haywire-grav/pull/6)
 
 # v0.2.3
 ## 06/06/2017
@@ -167,11 +174,11 @@
 ## 02/24/2017
 
 1. [](#improved)
-    * Remove bower (use yarn instead) [PR #3](https://github.com/robbinfellow/haywire-grav/pull/3)
-    * Modify gulp imports [PR #3](https://github.com/robbinfellow/haywire-grav/pull/3)
+    * Remove bower (use yarn instead) [PR #3](https://github.com/robbinworks/haywire-grav/pull/3)
+    * Modify gulp imports [PR #3](https://github.com/robbinworks/haywire-grav/pull/3)
     * Improve `item.yaml` template
 2. [](#bugfix)
-    * Gulp should require jquery first [PR #3](https://github.com/robbinfellow/haywire-grav/pull/3)
+    * Gulp should require jquery first [PR #3](https://github.com/robbinworks/haywire-grav/pull/3)
 
 # v0.1.8
 ## 02/18/2017
@@ -236,8 +243,8 @@
 ## 02/10/2017
 
 1. [](#new)
-    * Demo content of pages > `_demo/pages/` - [#1](https://github.com/robbinfellow/haywire-grav/issues/1)
-    * Added [live demo](http://haywire.me/haywire-grav-demo/) - [#2](https://github.com/robbinfellow/haywire-grav/issues/2)
+    * Demo content of pages > `_demo/pages/` - [#1](https://github.com/robbinworks/haywire-grav/issues/1)
+    * Added [live demo](http://haywire.me/haywire-grav-demo/) - [#2](https://github.com/robbinworks/haywire-grav/issues/2)
 2. [](#improved)
     * Updated theme specific details for better overview
     * Updated changelog to correct formats

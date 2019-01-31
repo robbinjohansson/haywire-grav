@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) Robbin Johansson <robbinfellow@gmail.com>
+Copyright (c) Robbin Johansson <mail@robbin.works>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

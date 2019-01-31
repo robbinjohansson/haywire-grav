@@ -1,16 +1,16 @@
 {
   "name": "haywire-grav",
-  "version": "0.4.3",
-  "homepage": "https://github.com/robbinfellow/haywire-grav#readme",
-  "author": "Robbin Johansson <robbinfellow@gmail.com>",
+  "version": "0.4.4",
+  "homepage": "https://github.com/robbinworks/haywire-grav#readme",
+  "author": "Robbin Johansson <mail@robbin.works>",
   "license": "MIT",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robbinfellow/haywire-grav.git"
+    "url": "git+https://github.com/robbinworks/haywire-grav.git"
   },
   "bugs": {
-    "url": "https://github.com/robbinfellow/haywire-grav/issues"
+    "url": "https://github.com/robbinworks/haywire-grav/issues"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
