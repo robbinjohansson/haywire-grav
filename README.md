@@ -2,7 +2,7 @@
 [![Open Issues On Github](https://img.shields.io/github/issues-raw/robbinworks/haywire-grav.svg?style=flat-square)](https://github.com/robbinworks/haywire-grav/issues)
 [![Software License](https://img.shields.io/github/license/robbinworks/haywire-grav.svg?style=flat-square)](https://github.com/robbinworks/haywire-grav/blob/master/LICENSE)
 
-> This theme is in active development, use `master` branch for the latest stable version.
+> #### This theme is in no longer being maintained actively as I do not use Grav myself, please [feel free to contribute](/.github/CONTRIBUTING.md) if you need something to be updated.
 
 # Starter theme for Grav CMS
 
