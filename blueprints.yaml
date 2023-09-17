@@ -1,15 +1,15 @@
 name: Haywire
-version: 0.4.4
+version: 0.4.5
 description: Starter theme for Grav CMS using modern tools and frameworks such as Laravel Mix, Vuejs, Bulma.
 icon: empire
 author:
   name: Robbin Johansson
   email: mail@robbin.works
-  url: https://github.com/robbinworks/
+  url: https://github.com/robbinjohansson/
 homepage: https://github.com/robbinworks/haywire-grav#readme
 keywords: haywire, grav, boilerplate, starter-theme, vuejs, laravel-mix, bulma
-bugs: https://github.com/robbinworks/haywire-grav/issues
-docs: https://github.com/robbinworks/haywire-grav#readme
+bugs: https://github.com/robbinjohansson/haywire-grav/issues
+docs: https://github.com/robbinjohansson/haywire-grav#readme
 license: MIT
 
 form:
