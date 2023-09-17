@@ -22,7 +22,7 @@
                     </figure>
                 {% endif %}
 
-                {{ page.content }}
+                {{ page.content|raw }}
             </div>
 
             {% if page.header.taxonomy.tag %}
