@@ -9,7 +9,7 @@
                 <strong>
                     {{ 'ERROR'|t }} {{ page.header.http_response_code }}
                 </strong>
-                {{ page.content }}
+                {{ page.content|raw }}
             </div>
 
         </div>
