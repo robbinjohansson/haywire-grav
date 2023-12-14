@@ -10,7 +10,7 @@
                     {% if post.header.intro %}
                         {{ post.header.intro|truncate(120)|markdown }}
                     {% else %}
-                        {{ post.summary(120) }}
+                        {{ post.summary(120)|raw }}
                     {% endif %}
                     <small>
                         {{ post.header.publish_date|nicetime() }}
